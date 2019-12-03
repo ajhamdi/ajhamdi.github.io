@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | Modar Alfadly</title>
-    <link>https://modar.me/publication_types/</link>
-      <atom:link href="https://modar.me/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publication_types | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/publication_types/</link>
+      <atom:link href="https://abdullahamdi.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0300</lastBuildDate>
     <image>
-      <url>https://modar.me/img/avatar.png</url>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Publication_types</title>
-      <link>https://modar.me/publication_types/</link>
+      <link>https://abdullahamdi.com/publication_types/</link>
     </image>
     
     <item>
       <title>1</title>
-      <link>https://modar.me/publication_types/1/</link>
+      <link>https://abdullahamdi.com/publication_types/1/</link>
       <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
-      <guid>https://modar.me/publication_types/1/</guid>
+      <guid>https://abdullahamdi.com/publication_types/1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>8</title>
-      <link>https://modar.me/publication_types/8/</link>
+      <link>https://abdullahamdi.com/publication_types/8/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0300</pubDate>
-      <guid>https://modar.me/publication_types/8/</guid>
+      <guid>https://abdullahamdi.com/publication_types/8/</guid>
       <description></description>
     </item>
     

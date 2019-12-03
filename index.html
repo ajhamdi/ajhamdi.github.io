@@ -21,17 +21,17 @@
   
   
 
-  <meta name="author" content="Nelson Bighetti">
+  <meta name="author" content="Modar Alfadly">
 
   
   
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="Modar Alfadly: PhD Student in Computer Science (Computer Vision) working on deep learning and understanding artificial neural networks.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/">
+  <link rel="alternate" hreflang="en-us" href="https://modar.me/">
 
   
 
@@ -39,7 +39,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -60,8 +60,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -91,36 +91,71 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131418222-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-131418222-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Modar Alfadly">
   
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/">
+  <link rel="canonical" href="https://modar.me/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
-  <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="/">
-  <meta property="og:title" content="Academic">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="/img/icon-192.png">
-  <meta property="twitter:image" content="/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:site_name" content="Modar Alfadly">
+  <meta property="og:url" content="https://modar.me/">
+  <meta property="og:title" content="Modar Alfadly">
+  <meta property="og:description" content="Modar Alfadly: PhD Student in Computer Science (Computer Vision) working on deep learning and understanding artificial neural networks."><meta property="og:image" content="https://modar.me/img/avatar.png">
+  <meta property="twitter:image" content="https://modar.me/img/avatar.png"><meta property="og:locale" content="en-us">
   
-    
+    <meta property="og:updated_time" content="2018-09-05T00:00:00&#43;03:00">
   
 
   
@@ -128,13 +163,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "url": "/"
+  "@type": "WebSite","url": "https://modar.me/"
 }
 </script>
 
@@ -151,11 +180,11 @@
 
 
 
-  <title>Academic</title>
+  <title>Modar Alfadly</title>
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="dark">
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -172,8 +201,7 @@
 
       <div id="search-box">
         
-        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
         
       </div>
 
@@ -196,7 +224,7 @@
     
     
     
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Modar Alfadly</a>
     
 
     
@@ -208,7 +236,7 @@
 
     
     
-    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
       <ul class="navbar-nav d-md-inline-flex">
@@ -266,7 +294,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts" data-target="#posts"><span>Posts</span></a>
+          <a class="nav-link " href="/#news" data-target="#news"><span>News</span></a>
         </li>
 
         
@@ -295,7 +323,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#skills" data-target="#skills"><span>Experience</span></a>
         </li>
 
         
@@ -359,6 +387,28 @@
         
         
 
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
       
 
         
@@ -366,10 +416,6 @@
     </div>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-      
-      <li class="nav-item">
-        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-      </li>
       
 
       
@@ -410,78 +456,6 @@
 
 
 
-
-  
-  
-  
-
-  
-
-  
-    
-  
-
-  
-
-  
-    
-    
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="demo" class="home-section wg-blank dark  " style="background-image: linear-gradient(DarkGreen, ForestGreen);padding: 20px 0 20px 0;" >
-    <div class="container">
-      
-
-
-<div class="row">
-  
-    <div class="col-lg-12">
-      <h1>Academic Kickstart</h1>
-      
-      <p>Welcome to the <strong>Academic Kickstart</strong> template!</p>
-<p>Follow our <a href="https://sourcethemes.com/academic/docs/get-started/">Getting Started</a> and <a href="https://sourcethemes.com/academic/docs/widgets/">Page Builder</a> guides to easily personalize the template and then <a href="https://sourcethemes.com/academic/docs/managing-content/">add your own content</a>.</p>
-<p>For inspiration, check out <a href="https://sourcethemes.com/academic/docs/install/#demo-content">the Markdown files</a> which power the <a href="https://academic-demo.netlify.com/">personal demo</a>. The easiest way to publish your new site to the internet is with <a href="https://sourcethemes.com/academic/docs/deployment/">Netlify</a>.</p>
-<ul>
-<li><a href="https://sourcethemes.com/academic/docs/">View the documentation</a></li>
-<li><a href="http://discuss.gohugo.io/">Ask a question</a></li>
-<li><a href="https://github.com/gcushen/hugo-academic/issues">Request a feature or report a bug</a></li>
-<li>Updating? View the <a href="https://sourcethemes.com/academic/docs/update/">Update Guide</a> and <a href="https://sourcethemes.com/academic/updates/">Release Notes</a></li>
-<li>Support development of Academic:
-<ul>
-<li><a href="https://paypal.me/cushen">Donate a coffee</a></li>
-<li><a href="https://www.patreon.com/cushen">Become a backer on Patreon</a></li>
-<li><a href="https://www.redbubble.com/people/neutreno/works/34387919-academic">Decorate your laptop or journal with an Academic sticker</a></li>
-<li><a href="https://academic.threadless.com/">Wear the T-shirt</a></li>
-</ul>
-</li>
-</ul>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-
-    </div>
-  
-</div>
-
-    </div>
-  </section>
 
   
   
@@ -536,18 +510,18 @@
 
       
       
-      <img class="portrait" src="/authors/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="portrait" src="/authors/admin/avatar_huc8d5456aba3c097cffae8e8260944e72_55364_250x250_fill_lanczos_center_2.png" alt="Avatar">
       
 
       <div class="portrait-title">
-        <h2>Nelson Bighetti</h2>
-        <h3>Professor of Artificial Intelligence</h3>
+        <h2>Modar Alfadly</h2>
+        <h3>PhD Student; Computer Science (Computer Vision)</h3>
 
         
         <h3>
-          
-          <span>Stanford University</span>
-          
+          <a href="https://kaust.edu.sa" target="_blank" rel="noopener">
+          <span>King Abdullah University of Science and Technology</span>
+          </a>
         </h3>
         
       </div>
@@ -574,23 +548,6 @@
         
         
         
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener">
-            <i class="fab fa-twitter big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
         
         
         
@@ -598,7 +555,7 @@
           
         
         <li>
-          <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
+          <a href="https://scholar.google.com/citations?user=PJiR5cwAAAAJ" target="_blank" rel="noopener">
             <i class="ai ai-google-scholar big-icon"></i>
           </a>
         </li>
@@ -606,6 +563,21 @@
         
         
         
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.researchgate.net/profile/Modar_Alfadly" target="_blank" rel="noopener">
+            <i class="ai ai-researchgate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
           
         
         
@@ -615,8 +587,59 @@
           
         
         <li>
-          <a href="https://github.com/gcushen" target="_blank" rel="noopener">
+          <a href="https://github.com/ModarTensai" target="_blank" rel="noopener">
             <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://gist.github.com/ModarTensai" target="_blank" rel="noopener">
+            <i class="fas fa-list big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://ivul.kaust.edu.sa/Pages/People-Modar-Alfadly.aspx" target="_blank" rel="noopener">
+            <i class="fas fa-user-graduate big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://linkedin.com/in/modar-alfadly" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin big-icon"></i>
           </a>
         </li>
         
@@ -629,8 +652,7 @@
     
     <h1>Biography</h1>
 
-    <p>Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.</p>
+    <p>I’m a PhD student at King Abdullah University of Science and Technology (<a href="https://kaust.edu.sa">KAUST</a>), pursuing to advance artificial intelligence via understanding deep neural networks. I am part of the Image and Video Understanding Laboratory (<a href="https://ivul.kaust.edu.sa">IVUL</a>) in the Visual Computing Center (<a href="https://vcc.kaust.edu.sa">VCC</a>), advised by <a href="http://bernardghanem.com">Bernard Ghanem</a>. I received my MSc degree in Computer Science from KAUST, and my undergraduate degree form King Fahd University of Petroleum and Minerals (<a href="http://www.kfupm.edu.sa/">KFUPM</a>) in Software Engineering. I am a curious scholar with an appetite for learning. I want to understand the world around me and be at the forefront of the unknown. Fully dedicated to fulfilling my duty of passing on knowledge to future generations.</p>
 
 
     <div class="row">
@@ -640,11 +662,11 @@
         <h3>Interests</h3>
         <ul class="ul-interests">
           
-          <li>Artificial Intelligence</li>
+          <li>Machine Learning</li>
           
-          <li>Computational Linguistics</li>
+          <li>Computer Vision</li>
           
-          <li>Information Retrieval</li>
+          <li>Computer Graphics</li>
           
         </ul>
       </div>
@@ -658,24 +680,16 @@
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">PhD in Artificial Intelligence, 2012</p>
-              <p class="institution">Stanford University</p>
+              <p class="course">MSc in Computer Science, 2017</p>
+              <p class="institution">King Abdullah University of Science and Technology</p>
             </div>
           </li>
           
           <li>
             <i class="fa-li fas fa-graduation-cap"></i>
             <div class="description">
-              <p class="course">MEng in Artificial Intelligence, 2009</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BSc in Artificial Intelligence, 2008</p>
-              <p class="institution">Massachusetts Institute of Technology</p>
+              <p class="course">BSc in Software Engineering, 2016</p>
+              <p class="institution">King Fahd University of Petroleum and Minerals</p>
             </div>
           </li>
           
@@ -687,6 +701,731 @@
   </div>
 </div>
 
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="news" class="home-section wg-news   "  >
+    <div class="container">
+      
+
+
+<div class="row">
+    
+    <div class="col-lg-12 section-heading" style="text-align: center;">
+        <h1>News</h1>
+    </div>
+    
+
+    <div class="col-lg-12">
+        
+    </div>
+
+    <style>
+        #news-table td:first-child {
+            width: 1%;
+            white-space: nowrap;
+            font-weight: bold;
+            text-align: center;
+             
+        }
+    </style>
+
+    
+    <table id="news-table">
+        <tbody>
+            
+            
+            <tr>
+                
+                <td>[2019-01-29]</td>
+                
+                <td>
+                    
+                    Gave a one hour talk on  <a
+                        href="$value">Pointwise CNNs</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-12-18]</td>
+                
+                <td>
+                    
+                    Gave a one hour talk on  <a
+                        href="$value">Scan2Mesh</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-12-13]</td>
+                
+                <td>
+                    
+                    Passed the  <a
+                        href="$value">qualifying exam</a>
+                    
+                     for the Computer Science PhD program
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-10-31]</td>
+                
+                <td>
+                    
+                    One <b>oral</b> paper ( <a
+                        href="$value">VQA models' robustness</a>
+                    
+                    ) accepted to  <a
+                        href="$value">AAAI19</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-10-02]</td>
+                
+                <td>
+                    
+                    Gave a two hours talk on  <a
+                        href="$value">Capsule Networks</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-08-08]</td>
+                
+                <td>
+                    
+                    Volunteered as an  <a
+                        href="$value">orientation leader</a>
+                    
+                     to help new  <a
+                        href="$value">KAUST</a>
+                    
+                     students
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-08-06]</td>
+                
+                <td>
+                    
+                    Gave a two hours  <a
+                        href="$value">hands-on PyTorch Tutorial</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-07-31]</td>
+                
+                <td>
+                    
+                    Volunteered to manage and be in charge of the  <a
+                        href="$value">IVUL's website</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-06-18]</td>
+                
+                <td>
+                    
+                    Attended  <a
+                        href="$value">CVPR18</a>
+                    
+                     to present my <b>oral</b> paper with  <a
+                        href="$value">Adel Bibi</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-06-10]</td>
+                
+                <td>
+                    
+                    Started my PhD degree at  <a
+                        href="$value">KAUST</a>
+                    
+                     with  <a
+                        href="$value">Bernard Ghanem</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-03-25]</td>
+                
+                <td>
+                    
+                    Awarded  <a
+                        href="$value">KAUST</a>
+                    
+                     Fellowship with full tuition support for a PhD degree
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td colspan="2">
+                    ~ The beginning of my PhD program ~
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-05-28]</td>
+                
+                <td>
+                    
+                    A  <a
+                        href="$value">VQA paper</a>
+                    
+                     was  <a
+                        href="$value">accepted</a>
+                    
+                     to the  <a
+                        href="$value">Visual Dialog Workshop</a>
+                    
+                     in  <a
+                        href="$value">CVPR18</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-04-12]</td>
+                
+                <td>
+                    
+                    Successfully defended my  <a
+                        href="$value">Master’s thesis</a>
+                    
+                     in front of the committee
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-03-14]</td>
+                
+                <td>
+                    
+                    Submitted a paper ( <a
+                        href="$value">DNNs' Robustness</a>
+                    
+                    ) to  <a
+                        href="$value">ECCV18</a>
+                    
+                     which was rejected
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-03-06]</td>
+                
+                <td>
+                    
+                    One <b>oral</b> paper ( <a
+                        href="$value">Gaussian Network Moments</a>
+                    
+                    ) accepted to  <a
+                        href="$value">CVPR18</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2018-01-28]</td>
+                
+                <td>
+                    
+                    Became the TA for the computer vision course by  <a
+                        href="$value">Bernard Ghanem</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-12-15]</td>
+                
+                <td>
+                    
+                    Graduated from  <a
+                        href="$value">KAUST</a>
+                    
+                     with an MSc in Computer Science
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-06-22]</td>
+                
+                <td>
+                    
+                    Gave a talk on  <a
+                        href="$value">Understanding DNNs</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-05-29]</td>
+                
+                <td>
+                    
+                    One paper ( <a
+                        href="$value">VQABQ</a>
+                    
+                    )  <a
+                        href="$value">accepted</a>
+                    
+                     to the  <a
+                        href="$value">2<sup>nd</sup> VQA workshop</a>
+                    
+                     in  <a
+                        href="$value">CVPR17</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-05-02]</td>
+                
+                <td>
+                    
+                    Began using  <a
+                        href="$value">Shaheen II</a>
+                    
+                    , the super computer, for the  <a
+                        href="$value">2<sup>nd</sup> VQA challenge</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-03-23]</td>
+                
+                <td>
+                    
+                    Gave a two hours talk on  <a
+                        href="$value">Transfer Learning</a>
+                    
+                     in an  <a
+                        href="$value">IVUL's group meeting</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-03-17]</td>
+                
+                <td>
+                    
+                    Submitted one paper ( <a
+                        href="$value">VQABQ</a>
+                    
+                    ) to  <a
+                        href="$value">ICCV17</a>
+                    
+                     which was later rejected
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2017-01-07]</td>
+                
+                <td>
+                    
+                    Attended the Winter Enrichment Program  <a
+                        href="$value">WEP 2017</a>
+                    
+                     at  <a
+                        href="$value">KAUST</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-11-03]</td>
+                
+                <td>
+                    
+                     <a
+                        href="$value">Completed</a>
+                    
+                     the  <a
+                        href="$value">Coursera-Stanford</a>
+                    
+                     course on Machine Learning
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-08-25]</td>
+                
+                <td>
+                    
+                    Volunteered for the  <a
+                        href="$value">Back to School Project</a>
+                    
+                     in Thuwal and Qadimah
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-08-21]</td>
+                
+                <td>
+                    
+                    Started my Master's degree at  <a
+                        href="$value">KAUST</a>
+                    
+                     and joined  <a
+                        href="$value">IVUL</a>
+                    
+                    's research group
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-07-10]</td>
+                
+                <td>
+                    
+                    Awarded  <a
+                        href="$value">KAUST</a>
+                    
+                     Fellowship with full tuition support for an MS degree
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td colspan="2">
+                    ~ The beginning of my master&#39;s program ~
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-05-24]</td>
+                
+                <td>
+                    
+                    Graduated from  <a
+                        href="$value">KFUPM</a>
+                    
+                     with a BSc in Software Engineering
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-05-04]</td>
+                
+                <td>
+                    
+                    Successfully presented my senior capstone project
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-03-02]</td>
+                
+                <td>
+                    
+                     <a
+                        href="$value">Placed 2<sup>nd</sup></a>
+                    
+                     in the second  <a
+                        href="$value">TechBench</a>
+                    
+                    - <a
+                        href="$value">KFUPM</a>
+                    
+                     Hackathon 2.0
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-02-19]</td>
+                
+                <td>
+                    
+                     <a
+                        href="$value">Placed 1<sup>st</sup></a>
+                    
+                     to solve all the problems in the  <a
+                        href="$value">first</a>
+                    
+                      <a
+                        href="$value">NC<sup>3</sup> conference</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-02-06]</td>
+                
+                <td>
+                    
+                    Completed a short course on Reverse Engineering with  <a
+                        href="$value">Sami Zhioua</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2016-01-03]</td>
+                
+                <td>
+                    
+                    Became a member of  <a
+                        href="$value">KFUPM</a>
+                    
+                    's delegation to Malaysia and Singapore
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2015-11-04]</td>
+                
+                <td>
+                    
+                    Initiated the  <a
+                        href="$value">Self-Learning</a>
+                    
+                     series as the VP of the CS club at  <a
+                        href="$value">KFUPM</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2015-10-01]</td>
+                
+                <td>
+                    
+                    Placed 1<sup>st</sup> in the first  <a
+                        href="$value">TechBench</a>
+                    
+                    - <a
+                        href="$value">KFUPM</a>
+                    
+                     Hackathon 1.0
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2015-06-14]</td>
+                
+                <td>
+                    
+                    Started my summer internship at  <a
+                        href="$value">KAUST</a>
+                    
+                     with  <a
+                        href="$value">Markus Hadwiger</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2015-04-20]</td>
+                
+                <td>
+                    
+                    Participated in the 4<sup>th</sup> Business Plan Competition of the  <a
+                        href="$value">EI in KFUPM</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2013-09-14]</td>
+                
+                <td>
+                    
+                    Completed a short course on Ethical Hacking with  <a
+                        href="$value">Sami Zhioua</a>
+                    
+                    
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td>[2011-09-10]</td>
+                
+                <td>
+                    
+                    Started my Bachelor's degree at  <a
+                        href="$value">KFUPM</a>
+                    
+                     aiming to be an academic
+                </td>
+                
+            </tr>
+            
+            <tr>
+                
+                <td colspan="2">
+                    ~ The beginning of my Bachelor&#39;s program ~
+                </td>
+                
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</div>
     </div>
   </section>
 
@@ -742,9 +1481,9 @@
     
   
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fab fa-r-project"></i></div>
-    <h3>R</h3>
-    <p>90%</p>
+    <div class="featurette-icon"><i class="fab fa-python"></i></div>
+    <h3>Python</h3>
+    
   </div>
   
   
@@ -753,9 +1492,9 @@
     
   
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fas fa-chart-line"></i></div>
-    <h3>Statistics</h3>
-    <p>100%</p>
+    <div class="featurette-icon"><i class="fas fa-fire"></i></div>
+    <h3>Pytorch</h3>
+    
   </div>
   
   
@@ -764,9 +1503,9 @@
     
   
   <div class="col-12 col-sm-4">
-    <div class="featurette-icon"><i class="fas fa-camera-retro"></i></div>
-    <h3>Photography</h3>
-    <p>10%</p>
+    <div class="featurette-icon"><i class="fas fa-cubes"></i></div>
+    <h3>CUDA</h3>
+    
   </div>
   
 </div>
@@ -829,7 +1568,7 @@
           <div class="col">&nbsp;</div>
         </div>
         <div class="m-2">
-          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+          <span class="badge badge-pill border ">&nbsp;</span>
         </div>
         <div class="row h-50">
           <div class="col border-right">&nbsp;</div>
@@ -840,24 +1579,143 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">CEO</h4>
-            <h4 class="card-title exp-company text-muted my-0">GenCoin</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Research Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.oculus.com/research/" target="_blank" rel="noopener">Facebook Reality Labs (FRL)</a></h4>
             <div class="text-muted exp-meta">
-              Jan 2017 –
+              Jun 2019 –
               
-                Present
+                Oct 2019
               
               
                 <span class="middot-divider"></span>
-                <span>California</span>
+                <span>Redmond, WA, USA</span>
               
             </div>
-            <div class="card-text">Responsibilities include:</p>
+            <div class="card-text">Active Learning using Uncertainty Predictions for Semantic Segmentation</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Teaching Assistant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.kaust.edu.sa/" target="_blank" rel="noopener">KAUST</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2019 –
+              
+                May 2019
+              
+              
+                <span class="middot-divider"></span>
+                <span>Saudi Arabia</span>
+              
+            </div>
+            <div class="card-text">EE 354: Introduction to Computer Vision (PhD-level course)<br>
+Responsibilities include:</p>
 <ul>
-<li>Analysing</li>
-<li>Modelling</li>
-<li>Deploying</li>
+<li>Deep Learning hands-on tutorials</li>
+<li>Teaching some lectures</li>
+<li>Grading assignments</li>
+<li>Office hours</li>
 </ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Teaching Assistant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.kaust.edu.sa/" target="_blank" rel="noopener">KAUST</a></h4>
+            <div class="text-muted exp-meta">
+              Jan 2018 –
+              
+                May 2018
+              
+              
+                <span class="middot-divider"></span>
+                <span>Saudi Arabia</span>
+              
+            </div>
+            <div class="card-text">EE 354: Introduction to Computer Vision (PhD-level course)<br>
+Responsibilities include:</p>
+<ul>
+<li>Teaching some lectures</li>
+<li>Grading assignments</li>
+<li>Office hours</li>
+</ul></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Deep Learning Consultant</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://mozn.sa" target="_blank" rel="noopener">Mozn Systems</a></h4>
+            <div class="text-muted exp-meta">
+              Aug 2017 –
+              
+                Aug 2018
+              
+              
+                <span class="middot-divider"></span>
+                <span>Saudi Arabia</span>
+              
+            </div>
+            
           </div>
         </div>
       </div>
@@ -882,387 +1740,25 @@
       <div class="col py-2">
         <div class="card">
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">Professor</h4>
-            <h4 class="card-title exp-company text-muted my-0">University X</h4>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Summer Intern</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://www.kaust.edu.sa/" target="_blank" rel="noopener">KAUST</a></h4>
             <div class="text-muted exp-meta">
-              Jan 2016 –
+              Jun 2014 –
               
-                Dec 2016
+                Sep 2014
               
               
                 <span class="middot-divider"></span>
-                <span>California</span>
+                <span>Saudi Arabia</span>
               
             </div>
-            <div class="card-text">Taught electronic engineering and researched semiconductor physics.</div>
+            <div class="card-text">Symmetric Iterative Skeletonization of 3D Brain Neurons with CUDA</div>
           </div>
         </div>
       </div>
     </div>
     
     
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="accomplishments" class="home-section wg-accomplishments   "  >
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Accomplish­ments</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    
-
-    
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Neural Networks and Deep Learning</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.coursera.org" target="_blank" rel="noopener">Coursera</a><span class="middot-divider"></span>
-
-            Oct 2018
-            
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.coursera.org" target="_blank" rel="noopener">
-              See certificate
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><a href="https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals" target="_blank" rel="noopener"><h4 class="card-title exp-title text-muted my-0">Blockchain Fundamentals</h4></a><div class="card-subtitle my-0 article-metadata"><a href="https://www.edx.org" target="_blank" rel="noopener">edX</a><span class="middot-divider"></span>
-
-            Mar 2018
-            
-          </div>
-
-          
-            <div class="card-text">Formulated informed blockchain models, hypotheses, and use cases.</div>
-          
-
-          
-            <a class="card-link" href="https://www.edx.org" target="_blank" rel="noopener">
-              See certificate
-            </a>
-          
-        </div>
-      </div>
-    
-      <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Object-Oriented Programming in R: S3 and R6 Course</h4><div class="card-subtitle my-0 article-metadata"><a href="https://www.datacamp.com" target="_blank" rel="noopener">DataCamp</a><span class="middot-divider"></span>
-
-            Jul 2017
-            
-            – Dec 2017
-            
-          </div>
-
-          
-
-          
-            <a class="card-link" href="https://www.datacamp.com" target="_blank" rel="noopener">
-              See certificate
-            </a>
-          
-        </div>
-      </div>
-    
-    
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="posts" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Posts</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="projects" class="home-section wg-portfolio   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-
-    <h1>Projects</h1>
-    
-
-  </div>
-  <div class="col-xs-12 col-md-8">
-
-
-
-    
-
-    
-
-    <div class="isotope projects-container js-layout-masonry ">
-      
-    </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="talks" class="home-section wg-pages   "  >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-
-    
-
   </div>
 </div>
 
@@ -1327,7 +1823,7 @@
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
+    <h1>Publications</h1>
     
   </div>
   <div class="col-12 col-lg-8">
@@ -1335,45 +1831,58 @@
     
 
     
+      
+        
 
-  </div>
-</div>
 
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/vqabq-aaai19/" >A Novel Framework for Robustness Analysis of Visual QA Models</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Deep neural networks have been playing an essential role in many computer vision tasks including Visual Question Answering (VQA). Until …
     </div>
-  </section>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
 
   
-  
-  
+  <span><a href="/authors/jia-hong-huang/">Jia-Hong Huang</a></span>, <span><a href="/authors/cuong-dao-ducast/">Cuong Dao-Duc*</a></span>, <span><a href="/authors/modar-alfadlyast/"><strong>Modar Alfadly</strong>*</a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
 
-  
+      </div>
+      
+    </div>
 
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="publications" class="home-section wg-pages   "  >
-    <div class="container">
+    
+    <div class="btn-links">
       
 
 
@@ -1384,90 +1893,129 @@
 
 
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent Publications</h1>
     
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://ivul.kaust.edu.sa/Documents/Publications/2019/A%20Novel%20Framework%20for%20Robustness%20Analysis%20of%20Visual%20QA%20Models.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vqabq-aaai19/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/Jhhuangkay/VQABQ" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/s1mEvQVPS8E" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.dropbox.com/sh/ijcwszo8w4orwnn/AAAbRB5UANMXkZO5Z0chLKMZa?dl=0" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+
+    </div>
+    
+
   </div>
-  <div class="col-12 col-lg-8">
-
-    <!-- raw HTML omitted -->
-
-
+  <div class="ml-3">
     
-
     
-
+    
+    <a href="/publication/vqabq-aaai19/" >
+      <img src="/publication/vqabq-aaai19/featured_hu4b2147b70313557bf55af49b50495c44_434623_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
   </div>
 </div>
 
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/vqabq-cvpr18/" >Robustness Analysis of Visual QA Models by Basic Questions</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Visual Question Answering (VQA) models should have both high robustness and accuracy. Unfortunately, most of the current VQA research …
     </div>
-  </section>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
 
   
-  
-  
+  <span><a href="/authors/jia-hong-huang/">Jia-Hong Huang</a></span>, <span><a href="/authors/modar-alfadly/"><strong>Modar Alfadly</strong></a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
 
-  
+      </div>
+      
+    </div>
 
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="tags" class="home-section wg-tag-cloud   "  >
-    <div class="container">
+    
+    <div class="btn-links">
       
 
 
@@ -1477,23 +2025,323 @@
 
 
 
+  
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1709.04625" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vqabq-cvpr18/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/Jhhuangkay/VQABQ" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/vqabq-cvpr18/" >
+      <img src="/publication/vqabq-cvpr18/featured_hu6b23e7a9067e89fc23ac9b5313bb71c4_162341_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
   
 
 
 
 
 
+  
 
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Popular Topics</h1>
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/gnm-cvpr18/" >Analytic Expressions for Probabilistic Moments of PL-DNN with Gaussian Input</a>
+    </h3>
+
+    
+    <div class="article-style">
+      The outstanding performance of deep neural networks (DNNs), for the visual recognition task in particular, has been demonstrated on …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/authors/adel-bibiast/">Adel Bibi*</a></span>, <span><a href="/authors/modar-alfadlyast/"><strong>Modar Alfadly</strong>*</a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://openaccess.thecvf.com/content_cvpr_2018/papers/Bibi_Analytic_Expressions_for_CVPR_2018_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/gnm-cvpr18/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/ModarTensai/network_moments" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1au9sd2NALWLrNZWFNDe4AkTRv7b9Z_kA/view?usp=sharing" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1cu2jdYItdPblB_MJoWIL73n_tDtRy0xV/view?usp=sharing" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=op9IBox_TTc&amp;t=945s" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CVPR.2018.00948" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/gnm-cvpr18/" >
+      <img src="/publication/gnm-cvpr18/featured_hu0521df0e856066fc8c6680dffca3541b_98171_150x0_resize_lanczos_2.png" alt="">
+    </a>
     
   </div>
-  <div class="col-12 col-lg-8">
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/vqabq-cvpr17/" >VQABQ: Visual Question Answering by Basic Questions</a>
+    </h3>
+
+    
+    <div class="article-style">
+      Taking an image and question as the input of our method, it can output the text-based answer of the query question about the given …
+    </div>
     
 
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+
+
+  
+  <span><a href="/authors/jia-hong-huang/">Jia-Hong Huang</a></span>, <span><a href="/authors/modar-alfadly/"><strong>Modar Alfadly</strong></a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1703.06492" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vqabq-cvpr17/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/Jhhuangkay/VQABQ" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/vqabq-cvpr17/" >
+      <img src="/publication/vqabq-cvpr17/featured_hu17462c8901ea7cb37c6ef863dcfdb927_143975_150x0_resize_lanczos_2.png" alt="">
+    </a>
+    
+  </div>
+</div>
+
+      
     
 
   </div>
@@ -1560,13 +2408,13 @@
     <ul class="fa-ul">
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email"><a href="mailto:test@example.org">test@example.org</a></span>
+        <span id="person-email"><a href="mailto:modar.alfadly@gmail.com">modar.alfadly@gmail.com</a></span>
       </li>
     </ul>
     
 
     <div class="mb-3">
-      <form name="contact" method="POST" action="https://formspree.io/test@example.org">
+      <form name="contact" method="POST" action="https://formspree.io/modar.alfadly@gmail.com">
         <div class="form-group form-inline">
           <label class="sr-only" for="inputName">Name</label>
           <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required>
@@ -1591,7 +2439,7 @@
       
       <li>
         <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
-        <span id="person-telephone"><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
+        <span id="person-telephone"><a href="tel:&#43;966%20590%20838481">&#43;966 590 838481</a></span>
       </li>
       
 
@@ -1600,48 +2448,27 @@
         
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">450 Serra Mall, Stanford, CA 94305</span>
+          <span id="person-address">4700 KAUST, Thuwal, Makkah 23955-6900</span>
         </li>
       
 
       
       <li>
         <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
-        <span>Enter Building 1 and take the stairs to Office 200 on Floor 2</span>
+        <span>Al-Khawarizmi Applied Mathematics (Building #1), Office #2106-WS04</span>
       </li>
       
 
-      
-      <li>
-        <i class="fa-li fas fa-clock fa-2x" aria-hidden="true"></i>
-        <span>Monday 10:00 to 13:00<!-- raw HTML omitted -->Wednesday 09:00 to 10:00</span>
-      </li>
       
 
       
       <li>
         <i class="fa-li fas fa-calendar-check fa-2x" aria-hidden="true"></i>
-        <a href="https://calendly.com" target="_blank" rel="noopener">Book an appointment</a>
+        <a href="https://calendly.com/modar" target="_blank" rel="noopener">Book an appointment</a>
       </li>
       
 
       
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-        <a href="https://twitter.com/Twitter" target="_blank" rel="noopener">DM Me</a>
-      </li>
       
       
       
@@ -1654,7 +2481,7 @@
       
       <li>
         <i class="fa-li fab fa-skype fa-2x" aria-hidden="true"></i>
-        <a href="skype:echo123?call" >Skype Me</a>
+        <a href="skype:modar.tensai" >Skype Me</a>
       </li>
       
       
@@ -1669,24 +2496,8 @@
         
       
       <li>
-        <i class="fa-li fab fa-keybase fa-2x" aria-hidden="true"></i>
-        <a href="https://keybase.io/" target="_blank" rel="noopener">Chat on Keybase</a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <i class="fa-li fas fa-comments fa-2x" aria-hidden="true"></i>
-        <a href="https://discourse.gohugo.io" target="_blank" rel="noopener">Discuss on Forum</a>
+        <i class="fa-li fab fa-telegram fa-2x" aria-hidden="true"></i>
+        <a href="https://telegram.me/Tensai" target="_blank" rel="noopener">Telegram Me</a>
       </li>
       
 
@@ -1695,9 +2506,9 @@
     
     <div class="d-none">
       <input id="map-provider" value="2">
-      <input id="map-lat" value="37.4275">
-      <input id="map-lng" value="-122.1697">
-      <input id="map-dir" value="450 Serra Mall, Stanford, CA 94305">
+      <input id="map-lat" value="22.308512">
+      <input id="map-lng" value="39.104719">
+      <input id="map-dir" value="4700 KAUST, Thuwal, Makkah 23955-6900">
       <input id="map-zoom" value="15">
       <input id="map-api-key" value="">
     </div>
@@ -1731,8 +2542,6 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
-        
       
 
       
@@ -1750,45 +2559,13 @@
     
 
     
-    
-    
-    
-    
-    
-    <script>
-      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
-      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
-      const content_type = {
-        'post': "Posts",
-        'project': "Projects",
-        'publication' : "Publications",
-        'talk' : "Talks"
-        };
-    </script>
-    
 
     
     
 
     
-    
-    <script id="search-hit-fuse-template" type="text/x-template">
-      <div class="search-hit" id="summary-{{key}}">
-      <div class="search-hit-content">
-        <div class="search-hit-name">
-          <a href="{{relpermalink}}">{{title}}</a>
-          <div class="article-metadata search-hit-type">{{type}}</div>
-          <p class="search-hit-description">{{snippet}}</p>
-        </div>
-      </div>
-      </div>
-    </script>
-    
 
     
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
     
 
     
@@ -1806,12 +2583,10 @@
     
     
     
-      
     
     
     
-    
-    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+    <script src="/js/academic.min.0e306e8373c36761cd7c6bcf5dfb6df2.js"></script>
 
     
 
@@ -1827,7 +2602,7 @@
   
 
   <p class="powered-by">
-    
+    © 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>solar tracker | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/solar-tracker/</link>
+      <atom:link href="https://abdullahamdi.com/tags/solar-tracker/index.xml" rel="self" type="application/rss+xml" />
+    <description>solar tracker</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Feb 2018 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>solar tracker</title>
+      <link>https://abdullahamdi.com/tags/solar-tracker/</link>
+    </image>
+    
+    <item>
+      <title>Smart dust-cleaner and cooler for solar PV panels</title>
+      <link>https://abdullahamdi.com/publication/us-patent18/</link>
+      <pubDate>Tue, 20 Feb 2018 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/us-patent18/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

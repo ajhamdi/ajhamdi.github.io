@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tracking | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/tracking/</link>
+      <atom:link href="https://abdullahamdi.com/tags/tracking/index.xml" rel="self" type="application/rss+xml" />
+    <description>tracking</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 11 Jun 2017 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>tracking</title>
+      <link>https://abdullahamdi.com/tags/tracking/</link>
+    </image>
+    
+    <item>
+      <title>Learning Rotation for Kernel Correlation Filter</title>
+      <link>https://abdullahamdi.com/publication/filter-arxive/</link>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/filter-arxive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

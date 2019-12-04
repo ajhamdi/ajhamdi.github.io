@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep learning | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/deep-learning/</link>
+      <atom:link href="https://abdullahamdi.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>Deep learning</title>
+      <link>https://abdullahamdi.com/tags/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Cascading Generative Adversarial Networks for Targeted Imagination</title>
+      <link>https://abdullahamdi.com/publication/ms-thesis/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/ms-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>adversarial attacks | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/adversarial-attacks/</link>
+      <atom:link href="https://abdullahamdi.com/tags/adversarial-attacks/index.xml" rel="self" type="application/rss+xml" />
+    <description>adversarial attacks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>adversarial attacks</title>
+      <link>https://abdullahamdi.com/tags/adversarial-attacks/</link>
+    </image>
+    
+    <item>
+      <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>
+      <link>https://abdullahamdi.com/publication/advpc-arxive/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/advpc-arxive/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

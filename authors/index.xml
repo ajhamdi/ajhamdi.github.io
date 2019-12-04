@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/authors/</link>
       <atom:link href="https://abdullahamdi.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Authors</title>
@@ -13,50 +13,42 @@
     </image>
     
     <item>
-      <title>**Modar Alfadly**&amp;ast;</title>
-      <link>https://abdullahamdi.com/authors/modar-alfadlyast/</link>
-      <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/modar-alfadlyast/</guid>
+      <title>**Abdullah Hamdi**</title>
+      <link>https://abdullahamdi.com/authors/abdullah-hamdi/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/authors/abdullah-hamdi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bernard Ghanem</title>
       <link>https://abdullahamdi.com/authors/bernard-ghanem/</link>
-      <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
       <guid>https://abdullahamdi.com/authors/bernard-ghanem/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Cuong Dao-Duc&amp;ast;</title>
-      <link>https://abdullahamdi.com/authors/cuong-dao-ducast/</link>
-      <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/cuong-dao-ducast/</guid>
+      <title>Matthias Muller</title>
+      <link>https://abdullahamdi.com/authors/matthias-muller/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/authors/matthias-muller/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Jia-Hong Huang</title>
-      <link>https://abdullahamdi.com/authors/jia-hong-huang/</link>
-      <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/jia-hong-huang/</guid>
+      <title>Ali Thabet</title>
+      <link>https://abdullahamdi.com/authors/ali-thabet/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/authors/ali-thabet/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>**Modar Alfadly**</title>
-      <link>https://abdullahamdi.com/authors/modar-alfadly/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/modar-alfadly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adel Bibi&amp;ast;</title>
-      <link>https://abdullahamdi.com/authors/adel-bibiast/</link>
-      <pubDate>Wed, 15 Nov 2017 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/adel-bibiast/</guid>
+      <title>Sara Rojas</title>
+      <link>https://abdullahamdi.com/authors/sara-rojas/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/authors/sara-rojas/</guid>
       <description></description>
     </item>
     
@@ -65,7 +57,7 @@
       <link>https://abdullahamdi.com/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://abdullahamdi.com/authors/admin/</guid>
-      <description>&lt;p&gt;I’m a PhD student at King Abdullah University of Science and Technology (&lt;a href=&#34;https://kaust.edu.sa&#34;&gt;KAUST&lt;/a&gt;), pursuing to advance artificial intelligence via understanding deep neural networks. I am part of the Image and Video Understanding Laboratory (&lt;a href=&#34;https://ivul.kaust.edu.sa&#34;&gt;IVUL&lt;/a&gt;) in the Visual Computing Center (&lt;a href=&#34;https://vcc.kaust.edu.sa&#34;&gt;VCC&lt;/a&gt;), advised by &lt;a href=&#34;http://bernardghanem.com&#34;&gt;Bernard Ghanem&lt;/a&gt;. I received my MSc degree in Electrical Engineering (Computer Vsison) from KAUST, and my undergraduate degree form King Fahd University of Petroleum and Minerals (&lt;a href=&#34;http://www.kfupm.edu.sa/&#34;&gt;KFUPM&lt;/a&gt;) in Electrical Engineering. I want to develop innovative solutions to human difficult problems based on AI tools. Specifically, I want to utilize less explored adversarial capabilities of deep learning. Here is a &lt;a href=&#34;https://youtu.be/ZOA6MWqs1OQ&#34;&gt;video&lt;/a&gt; and an &lt;a href=&#34;https://www.kaust.edu.sa/en/news/student-focus-abdullah-hamdi&#34;&gt;article&lt;/a&gt; about me explaining my vision and work.&lt;/p&gt;
+      <description>&lt;p&gt;I’m a PhD student at King Abdullah University of Science and Technology (&lt;a href=&#34;https://kaust.edu.sa&#34;&gt;KAUST&lt;/a&gt;), pursuing to advance artificial intelligence via understanding deep neural networks. I am part of the Image and Video Understanding Laboratory (&lt;a href=&#34;https://ivul.kaust.edu.sa&#34;&gt;IVUL&lt;/a&gt;) in the Visual Computing Center (&lt;a href=&#34;https://vcc.kaust.edu.sa&#34;&gt;VCC&lt;/a&gt;), advised by &lt;a href=&#34;http://bernardghanem.com&#34;&gt;Bernard Ghanem&lt;/a&gt;. I received my MSc degree in Electrical Engineering (Computer Vsison) from KAUST, and my undergraduate degree form King Fahd University of Petroleum and Minerals (&lt;a href=&#34;http://www.kfupm.edu.sa/&#34;&gt;KFUPM&lt;/a&gt;) in Electrical Engineering. I want to develop innovative solutions to human difficult problems based on AI tools. Specifically, I want to utilize less explored adversarial capabilities of deep learning. Here is a &lt;a href=&#34;https://youtu.be/ZOA6MWqs1OQ&#34;&gt;video&lt;/a&gt; and an &lt;a href=&#34;https://www.kaust.edu.sa/en/news/student-focus-abdullah-hamdi&#34;&gt;article&lt;/a&gt; about me explaining my future vision and my current work.&lt;/p&gt;
 </description>
     </item>
     

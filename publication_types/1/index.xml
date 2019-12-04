@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/publication_types/1/</link>
       <atom:link href="https://abdullahamdi.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 05 Sep 2018 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>1</title>
@@ -13,21 +13,44 @@
     </image>
     
     <item>
-      <title>A Novel Framework for Robustness Analysis of Visual QA Models</title>
-      <link>https://abdullahamdi.com/publication/vqabq-aaai19/</link>
-      <pubDate>Wed, 05 Sep 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication/vqabq-aaai19/</guid>
-      <description>&lt;p&gt;In AAAI19, a record number of over 7700 papers were submitted, 7095 were reviewed, a record low of 1150 papers (16.2%) were accepted [&lt;a href=&#34;https://twitter.com/PVanHentenryck/status/1057849131014782976&#34;&gt;source1&lt;/a&gt; - &lt;a href=&#34;https://blogs.kent.ac.uk/datascience/2018/10/31/shoaibs-paper-appearing-at-aaai-conference/&#34;&gt;sourc2&lt;/a&gt;]&lt;/p&gt;
+      <title>SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications</title>
+      <link>https://abdullahamdi.com/publication/sada-aaai20/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/sada-aaai20/</guid>
+      <description>&lt;p&gt;In AAAI 2020, a record number of over 8,800 papers were submitted, 7,737 were reviewed, a record low of 1,591 papers (20.6%) were accepted.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Analytic Expressions for Probabilistic Moments of PL-DNN with Gaussian Input</title>
-      <link>https://abdullahamdi.com/publication/gnm-cvpr18/</link>
-      <pubDate>Wed, 15 Nov 2017 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication/gnm-cvpr18/</guid>
-      <description>&lt;p&gt;In CVPR18, a total of 3359 papers were submitted, 979 papers (29.1%) were accepted, 224 were &lt;em&gt;Spotlights&lt;/em&gt; (6.7%), and 70 were &lt;strong&gt;Orals&lt;/strong&gt; (2.1%) [&lt;a href=&#34;https://taniai.space/cvconf/&#34;&gt;source&lt;/a&gt;]&lt;/p&gt;
-</description>
+      <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>
+      <link>https://abdullahamdi.com/publication/advpc-arxive/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/advpc-arxive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards Analyzing Semantic Robustness of Deep Neural Networks</title>
+      <link>https://abdullahamdi.com/publication/sr-iccv19/</link>
+      <pubDate>Sun, 15 Sep 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/sr-iccv19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IAN: Combining Generative Adversarial Networks for Imaginative Face Generation</title>
+      <link>https://abdullahamdi.com/publication/ian-arxive/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/ian-arxive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Rotation for Kernel Correlation Filter</title>
+      <link>https://abdullahamdi.com/publication/filter-arxive/</link>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/filter-arxive/</guid>
+      <description></description>
     </item>
     
   </channel>

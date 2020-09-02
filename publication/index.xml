@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/publication/</link>
       <atom:link href="https://abdullahamdi.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Publications</title>
@@ -13,28 +13,21 @@
     </image>
     
     <item>
-      <title>SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications</title>
-      <link>https://abdullahamdi.com/publication/sada-aaai20/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication/sada-aaai20/</guid>
-      <description>&lt;p&gt;In AAAI 2020, a record number of over 8,800 papers were submitted, 7,737 were reviewed, a record low of 1,591 papers (20.6%) were accepted.&lt;/p&gt;
+      <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>
+      <link>https://abdullahamdi.com/publication/advpc-arxive/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/advpc-arxive/</guid>
+      <description>&lt;p&gt;ECCV 2020 received a record number of 5025 valid submissions, of which 1361 (27%) were accepted for publication.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>
-      <link>https://abdullahamdi.com/publication/advpc-arxive/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication/advpc-arxive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Towards Analyzing Semantic Robustness of Deep Neural Networks</title>
-      <link>https://abdullahamdi.com/publication/sr-iccv19/</link>
-      <pubDate>Sun, 15 Sep 2019 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication/sr-iccv19/</guid>
-      <description></description>
+      <title>SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications</title>
+      <link>https://abdullahamdi.com/publication/sada-aaai20/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/sada-aaai20/</guid>
+      <description>&lt;p&gt;In AAAI 2020, a record number of over 8,800 papers were submitted, 7,737 were reviewed, only 1,591 papers (20.6%) were accepted.&lt;/p&gt;
+</description>
     </item>
     
     <item>

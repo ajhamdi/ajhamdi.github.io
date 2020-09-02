@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/adverserial-attacks/</link>
       <atom:link href="https://abdullahamdi.com/tags/adverserial-attacks/index.xml" rel="self" type="application/rss+xml" />
     <description>adverserial attacks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>adverserial attacks</title>
       <link>https://abdullahamdi.com/tags/adverserial-attacks/</link>
     </image>
+    
+    <item>
+      <title>Towards Analyzing Semantic Robustness of Deep Neural Networks</title>
+      <link>https://abdullahamdi.com/publication/sr-iccv19/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/sr-iccv19/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SADA: Semantic Adversarial Diagnostic Attacks for Autonomous Applications</title>

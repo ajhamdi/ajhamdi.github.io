@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/publication_types/1/</link>
       <atom:link href="https://abdullahamdi.com/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>1</title>
       <link>https://abdullahamdi.com/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Expected Tight Bounds for Robust Deep Neural Network Training</title>
+      <link>https://abdullahamdi.com/publication/etb-iclr21/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/etb-iclr21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>

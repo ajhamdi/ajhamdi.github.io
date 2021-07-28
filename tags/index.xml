@@ -5,12 +5,44 @@
     <link>https://abdullahamdi.com/tags/</link>
       <atom:link href="https://abdullahamdi.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 15 Feb 2021 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Tags</title>
       <link>https://abdullahamdi.com/tags/</link>
     </image>
+    
+    <item>
+      <title>3D classification</title>
+      <link>https://abdullahamdi.com/tags/3d-classification/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/tags/3d-classification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D point cloud</title>
+      <link>https://abdullahamdi.com/tags/3d-point-cloud/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/tags/3d-point-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D retrieval</title>
+      <link>https://abdullahamdi.com/tags/3d-retrieval/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/tags/3d-retrieval/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-view</title>
+      <link>https://abdullahamdi.com/tags/multi-view/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/tags/multi-view/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adverserial attacks</title>
@@ -33,14 +65,6 @@
       <link>https://abdullahamdi.com/tags/robustness/</link>
       <pubDate>Mon, 15 Feb 2021 00:00:00 +0300</pubDate>
       <guid>https://abdullahamdi.com/tags/robustness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>3D point cloud</title>
-      <link>https://abdullahamdi.com/tags/3d-point-cloud/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/tags/3d-point-cloud/</guid>
       <description></description>
     </item>
     

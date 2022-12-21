@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/authors/</link>
       <atom:link href="https://abdullahamdi.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 25 Nov 2021 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0300</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>**Abdullah Hamdi**</title>
       <link>https://abdullahamdi.com/authors/abdullah-hamdi/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
       <guid>https://abdullahamdi.com/authors/abdullah-hamdi/</guid>
       <description></description>
     </item>
@@ -23,8 +23,16 @@
     <item>
       <title>Bernard Ghanem</title>
       <link>https://abdullahamdi.com/authors/bernard-ghanem/</link>
-      <pubDate>Thu, 25 Nov 2021 00:00:00 +0300</pubDate>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
       <guid>https://abdullahamdi.com/authors/bernard-ghanem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matthias Nießner</title>
+      <link>https://abdullahamdi.com/authors/matthias-nie%C3%9Fner/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/authors/matthias-nie%C3%9Fner/</guid>
       <description></description>
     </item>
     

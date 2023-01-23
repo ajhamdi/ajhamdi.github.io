@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) with a theoretically established functional form to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification and retrieval on ScanObjectNN, ModelNet40, and ShapeNet Core55. Additionally, we achieve competitive performance for 3D semantic segmentation on ShapeNet Parts. Further analysis shows that VointNet improves the robustness to rotation and occlusion compared to other methods.">
+  <meta name="description" content="Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification, shape retrieval, and robust 3D part segmentation on standard benchmarks ( ScanObjectNN, ShapeNet Core55, and ShapeNet Parts). Further analysis shows that VointNet improves the robustness to occlusion compared to other methods.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/voint-cloud/">
@@ -153,7 +153,7 @@
   <meta property="og:site_name" content="Abdullah Hamdi">
   <meta property="og:url" content="https://abdullahamdi.com/publication/voint-cloud/">
   <meta property="og:title" content="Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding | Abdullah Hamdi">
-  <meta property="og:description" content="Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) with a theoretically established functional form to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification and retrieval on ScanObjectNN, ModelNet40, and ShapeNet Core55. Additionally, we achieve competitive performance for 3D semantic segmentation on ShapeNet Parts. Further analysis shows that VointNet improves the robustness to rotation and occlusion compared to other methods."><meta property="og:image" content="https://abdullahamdi.com/publication/voint-cloud/featured.png">
+  <meta property="og:description" content="Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification, shape retrieval, and robust 3D part segmentation on standard benchmarks ( ScanObjectNN, ShapeNet Core55, and ShapeNet Parts). Further analysis shows that VointNet improves the robustness to occlusion compared to other methods."><meta property="og:image" content="https://abdullahamdi.com/publication/voint-cloud/featured.png">
   <meta property="twitter:image" content="https://abdullahamdi.com/publication/voint-cloud/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -207,7 +207,7 @@
       "url": "https://abdullahamdi.com/img/icon-512.png"
     }
   },
-  "description": "Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) with a theoretically established functional form to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification and retrieval on ScanObjectNN, ModelNet40, and ShapeNet Core55. Additionally, we achieve competitive performance for 3D semantic segmentation on ShapeNet Parts. Further analysis shows that VointNet improves the robustness to rotation and occlusion compared to other methods."
+  "description": "Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification, shape retrieval, and robust 3D part segmentation on standard benchmarks ( ScanObjectNN, ShapeNet Core55, and ShapeNet Parts). Further analysis shows that VointNet improves the robustness to occlusion compared to other methods."
 }
 </script>
 
@@ -618,6 +618,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/forum?id=IpGgfpMucHj" target="_blank" rel="noopener">
+  Source Document
+</a>
+
 
 
 
@@ -640,7 +648,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) with a theoretically established functional form to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification and retrieval on ScanObjectNN, ModelNet40, and ShapeNet Core55. Additionally, we achieve competitive performance for 3D semantic segmentation on ShapeNet Parts. Further analysis shows that VointNet improves the robustness to rotation and occlusion compared to other methods.</p>
+    <p class="pub-abstract">Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. Previous methods use unlearned heuristics to combine features at the point level. To this end, we introduce the concept of the multi-view point cloud (Voint cloud), representing each 3D point as a set of features extracted from several view-points. This novel 3D Voint cloud representation combines the compactness of 3D point cloud representation with the natural view-awareness of multi-view representation. Naturally, we can equip this new representation with convolutional and pooling operations. We deploy a Voint neural network (VointNet) to learn representations in the Voint space. Our novel representation achieves state-of-the-art performance on 3D classification, shape retrieval, and robust 3D part segmentation on standard benchmarks ( ScanObjectNN, ShapeNet Core55, and ShapeNet Parts). Further analysis shows that VointNet improves the robustness to occlusion compared to other methods.</p>
     
 
     
@@ -670,7 +678,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Arxiv</div>
+          <div class="col-12 col-md-9">In International Conference on Learning Representations 2023</div>
         </div>
       </div>
       <div class="col-md-1"></div>

@@ -1,306 +1,184 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://abdullahamdi.com/authors/abdullah-hamdi/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication_types/3/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/3d-point-cloud/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/3d-radiance-fields/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/3d-retrieval/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/bernard-ghanem/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/matthias-nie%C3%9Fner/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/multi-view/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/nerf/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication_types/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/sparf/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/sparse-voxels/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/</loc>
-    <lastmod>2022-12-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication_types/1/</loc>
-    <lastmod>2022-09-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/3d-classification/</loc>
-    <lastmod>2022-09-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/3d-segmentation/</loc>
-    <lastmod>2022-09-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/silvio-giancola/</loc>
-    <lastmod>2022-09-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/voint-cloud/</loc>
-    <lastmod>2022-09-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2022-09-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/mvtn-iccv/</loc>
-    <lastmod>2021-07-25T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-07-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/adel-bibi/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/adverserial-attacks/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/bounds-propagation/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/etb-iclr21/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/modar-alfadly/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/robustness/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/salman-alsubaihi/</loc>
-    <lastmod>2021-02-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-02-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/adversarial-attacks/</loc>
-    <lastmod>2020-09-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/advpc-arxive/</loc>
-    <lastmod>2020-09-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/ali-thabet/</loc>
-    <lastmod>2020-09-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/sara-rojas/</loc>
-    <lastmod>2020-09-01T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-09-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/semantic-robustness/</loc>
-    <lastmod>2020-08-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/sr-iccv19/</loc>
-    <lastmod>2020-08-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/matthias-muller/</loc>
-    <lastmod>2019-11-05T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/sada/</loc>
-    <lastmod>2019-11-05T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/sada-aaai20/</loc>
-    <lastmod>2019-11-05T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/adversarial/</loc>
-    <lastmod>2019-04-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/gans/</loc>
-    <lastmod>2019-04-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/generative/</loc>
-    <lastmod>2019-04-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/ian-arxive/</loc>
-    <lastmod>2019-04-15T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication_types/4/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/adverserial/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/ms-thesis/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/deep-learning/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/gan/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/generative-models/</loc>
-    <lastmod>2018-04-09T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/patents/</loc>
-    <lastmod>2018-02-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/pv-panels/</loc>
-    <lastmod>2018-02-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/us-patent18/</loc>
-    <lastmod>2018-02-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/solar/</loc>
-    <lastmod>2018-02-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/solar-tracker/</loc>
-    <lastmod>2018-02-20T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/kfc/</loc>
-    <lastmod>2017-06-11T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/publication/filter-arxive/</loc>
-    <lastmod>2017-06-11T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/tracking/</loc>
-    <lastmod>2017-06-11T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/tags/uav/</loc>
-    <lastmod>2017-06-11T00:00:00+03:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2017-06-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://abdullahamdi.com/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abdullahamdi.com/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abdullahamdi.com/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://abdullahamdi.com/talk/</loc>
   </url>
-  
 </urlset>

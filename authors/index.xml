@@ -5,101 +5,12 @@
     <link>https://abdullahamdi.com/authors/</link>
       <atom:link href="https://abdullahamdi.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Authors</title>
       <link>https://abdullahamdi.com/authors/</link>
     </image>
-    
-    <item>
-      <title>**Abdullah Hamdi**</title>
-      <link>https://abdullahamdi.com/authors/abdullah-hamdi/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/abdullah-hamdi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bernard Ghanem</title>
-      <link>https://abdullahamdi.com/authors/bernard-ghanem/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/bernard-ghanem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matthias Nießner</title>
-      <link>https://abdullahamdi.com/authors/matthias-nie%C3%9Fner/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/matthias-nie%C3%9Fner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Silvio Giancola</title>
-      <link>https://abdullahamdi.com/authors/silvio-giancola/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/silvio-giancola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Adel Bibi</title>
-      <link>https://abdullahamdi.com/authors/adel-bibi/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/adel-bibi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modar Alfadly</title>
-      <link>https://abdullahamdi.com/authors/modar-alfadly/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/modar-alfadly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Salman Alsubaihi</title>
-      <link>https://abdullahamdi.com/authors/salman-alsubaihi/</link>
-      <pubDate>Mon, 15 Feb 2021 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/salman-alsubaihi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ali Thabet</title>
-      <link>https://abdullahamdi.com/authors/ali-thabet/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/ali-thabet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sara Rojas</title>
-      <link>https://abdullahamdi.com/authors/sara-rojas/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/sara-rojas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matthias Muller</title>
-      <link>https://abdullahamdi.com/authors/matthias-muller/</link>
-      <pubDate>Tue, 05 Nov 2019 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/authors/matthias-muller/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://abdullahamdi.com/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://abdullahamdi.com/authors/admin/</guid>
-      <description>&lt;p&gt;I’m a PhD student at &lt;a href=&#34;https://kaust.edu.sa&#34;&gt;KAUST&lt;/a&gt;, pursuing to advance artificial intelligence via understanding deep neural networks. I am part of the Image and Video Understanding Laboratory (&lt;a href=&#34;https://ivul.kaust.edu.sa&#34;&gt;IVUL&lt;/a&gt;) in the Visual Computing Center (&lt;a href=&#34;https://vcc.kaust.edu.sa&#34;&gt;VCC&lt;/a&gt;), advised by &lt;a href=&#34;http://bernardghanem.com&#34;&gt;Bernard Ghanem&lt;/a&gt;. I was a visiting PhD with Prof &lt;a href=&#34;https://niessnerlab.org/&#34;&gt;Matthias Niessner&lt;/a&gt; at &lt;a href=&#34;https://www.tum.de/&#34;&gt;TUM&lt;/a&gt; in 2022. I received my MSc degree in Electrical Engineering (Computer Vision) from KAUST, and my undergraduate degree form &lt;a href=&#34;http://www.kfupm.edu.sa/&#34;&gt;KFUPM&lt;/a&gt; in Electrical Engineering. My carear goal is to develop robust deep learning tools for 3D understanding and creation and to expand the access of AI to disadvantaged groups in the Arabic region. [&lt;a href=&#34;https://youtu.be/ZOA6MWqs1OQ&#34;&gt;video&lt;/a&gt;, &lt;a href=&#34;https://www.kaust.edu.sa/en/news/student-focus-abdullah-hamdi&#34;&gt;article&lt;/a&gt;, &lt;a href=&#34;https://youtu.be/pWwzOmbOEUQ&#34;&gt;TedX talk&lt;/a&gt;]. I am also the founder and president of &lt;a href=&#34;https://fihm.ai/&#34;&gt;fihm.ai&lt;/a&gt; (biggest Arabic online AI platform).&lt;/p&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

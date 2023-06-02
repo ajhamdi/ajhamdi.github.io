@@ -5,36 +5,12 @@
     <link>https://abdullahamdi.com/publication_types/</link>
       <atom:link href="https://abdullahamdi.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0300</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Publication_types</title>
       <link>https://abdullahamdi.com/publication_types/</link>
     </image>
-    
-    <item>
-      <title>3</title>
-      <link>https://abdullahamdi.com/publication_types/3/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication_types/3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>1</title>
-      <link>https://abdullahamdi.com/publication_types/1/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication_types/1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>4</title>
-      <link>https://abdullahamdi.com/publication_types/4/</link>
-      <pubDate>Mon, 09 Apr 2018 00:00:00 +0300</pubDate>
-      <guid>https://abdullahamdi.com/publication_types/4/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/tags/3d-classification/</link>
       <atom:link href="https://abdullahamdi.com/tags/3d-classification/index.xml" rel="self" type="application/rss+xml" />
     <description>3D classification</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>3D classification</title>
@@ -13,9 +13,18 @@
     </image>
     
     <item>
+      <title>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</title>
+      <link>https://abdullahamdi.com/publication/egoloc-iccv/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/egoloc-iccv/</guid>
+      <description>&lt;p&gt;ICCV 2023 received a record number of 6236 valid submissions, of which 1617 (25.9%) were accepted for publication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding</title>
       <link>https://abdullahamdi.com/publication/voint-cloud/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/voint-cloud/</guid>
       <description></description>
     </item>
@@ -23,7 +32,7 @@
     <item>
       <title>MVTN: Multi-View Transformation Network for 3D Shape Recognition</title>
       <link>https://abdullahamdi.com/publication/mvtn-iccv/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/mvtn-iccv/</guid>
       <description>&lt;p&gt;ICCV 2021 received a record number of 6236 valid submissions, of which 1617 (25.9%) were accepted for publication.&lt;/p&gt;
 </description>

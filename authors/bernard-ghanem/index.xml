@@ -5,12 +5,29 @@
     <link>https://abdullahamdi.com/authors/bernard-ghanem/</link>
       <atom:link href="https://abdullahamdi.com/authors/bernard-ghanem/index.xml" rel="self" type="application/rss+xml" />
     <description>Bernard Ghanem</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Bernard Ghanem</title>
       <link>https://abdullahamdi.com/authors/bernard-ghanem/</link>
     </image>
+    
+    <item>
+      <title>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</title>
+      <link>https://abdullahamdi.com/publication/egoloc-iccv/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/egoloc-iccv/</guid>
+      <description>&lt;p&gt;ICCV 2023 received a record number of 6236 valid submissions, of which 1617 (25.9%) were accepted for publication.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</title>
+      <link>https://abdullahamdi.com/publication/magic123/</link>
+      <pubDate>Mon, 03 Jul 2023 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/magic123/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</title>
@@ -23,7 +40,7 @@
     <item>
       <title>Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding</title>
       <link>https://abdullahamdi.com/publication/voint-cloud/</link>
-      <pubDate>Sun, 25 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Sep 2022 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/voint-cloud/</guid>
       <description></description>
     </item>
@@ -31,7 +48,7 @@
     <item>
       <title>MVTN: Multi-View Transformation Network for 3D Shape Recognition</title>
       <link>https://abdullahamdi.com/publication/mvtn-iccv/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/mvtn-iccv/</guid>
       <description>&lt;p&gt;ICCV 2021 received a record number of 6236 valid submissions, of which 1617 (25.9%) were accepted for publication.&lt;/p&gt;
 </description>
@@ -48,7 +65,7 @@
     <item>
       <title>AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</title>
       <link>https://abdullahamdi.com/publication/advpc-arxive/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/advpc-arxive/</guid>
       <description>&lt;p&gt;ECCV 2020 received a record number of 5025 valid submissions, of which 1361 (27%) were accepted for publication.&lt;/p&gt;
 </description>
@@ -57,7 +74,7 @@
     <item>
       <title>Towards Analyzing Semantic Robustness of Deep Neural Networks</title>
       <link>https://abdullahamdi.com/publication/sr-iccv19/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/sr-iccv19/</guid>
       <description></description>
     </item>
@@ -74,7 +91,7 @@
     <item>
       <title>IAN: Combining Generative Adversarial Networks for Imaginative Face Generation</title>
       <link>https://abdullahamdi.com/publication/ian-arxive/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/ian-arxive/</guid>
       <description></description>
     </item>
@@ -82,7 +99,7 @@
     <item>
       <title>Learning Rotation for Kernel Correlation Filter</title>
       <link>https://abdullahamdi.com/publication/filter-arxive/</link>
-      <pubDate>Sun, 11 Jun 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Jun 2017 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/filter-arxive/</guid>
       <description></description>
     </item>

@@ -5,7 +5,7 @@
     <link>https://abdullahamdi.com/tags/multi-view/</link>
       <atom:link href="https://abdullahamdi.com/tags/multi-view/index.xml" rel="self" type="application/rss+xml" />
     <description>multi-view</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 25 Sep 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>multi-view</title>
@@ -15,10 +15,17 @@
     <item>
       <title>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</title>
       <link>https://abdullahamdi.com/publication/egoloc-iccv/</link>
-      <pubDate>Tue, 25 Jul 2023 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 25 Sep 2023 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/egoloc-iccv/</guid>
-      <description>&lt;p&gt;ICCV 2023 received a record number of 6236 valid submissions, of which 1617 (25.9%) were accepted for publication.&lt;/p&gt;
-</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</title>
+      <link>https://abdullahamdi.com/publication/sparf/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/sparf/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -26,14 +33,6 @@
       <link>https://abdullahamdi.com/publication/magic123/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/magic123/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</title>
-      <link>https://abdullahamdi.com/publication/sparf/</link>
-      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://abdullahamdi.com/publication/sparf/</guid>
       <description></description>
     </item>
     

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="With the recent advances in video and 3D understanding, novel 4D spatio-temporal methods fusing both concepts have emerged. Towards this direction, the Ego4D Episodic Memory Benchmark proposed a task for Visual Queries with 3D Localization (VQ3D). Given an egocentric video clip and an image crop depicting a query object, the goal is to localize the 3D position of the center of that query object with respect to the camera pose of a query frame. Current methods tackle the problem of VQ3D by unprojecting the 2D localization results of the sibling task Visual Queries with 2D Localization (VQ2D) into 3D predictions. Yet, we point out that the low number of camera poses caused by camera re-localization from previous VQ3D methods severally hinders their overall success rate. In this work, we formalize a pipeline (we dub EgoLoc) that better entangles 3D multiview geometry with 2D object retrieval from egocentric videos. Our approach involves estimating more robust camera poses and aggregating multi-view 3D displacements by leveraging the 2D detection confidence, which enhances the success rate of object queries and leads to a significant improvement in the VQ3D baseline performance. Specifically, our approach achieves an overall success rate of up to 87.12%, which sets a new state-of-the-art result in the VQ3D task. We provide a comprehensive empirical analysis of the VQ3D task and existing solutions and highlight the remaining challenges in VQ3D. The code and models will be released upon publication to set a new standard for the VQ3D task">
+  <meta name="description" content="The Video Assistant Referee (VAR) has revolutionized association football, enabling referees to review incidents on the pitch, make informed decisions, and ensure fairness. However, due to the lack of referees in many countries and the high cost of the VAR infrastructure, only professional leagues can benefit from it. In this paper, we propose a Video Assistant Referee System (VARS) that can automate soccer decision-making. VARS leverages the latest findings in multi-view video analysis, to provide real-time feedback to the referee, and help them make informed decisions that can impact the outcome of a game. To validate VARS, we introduce SoccerNet-MVFoul, a novel video dataset of soccer fouls from multiple camera views, annotated with extensive foul descriptions by a professional soccer referee, and we benchmark our VARS to automatically recognize the characteristics of these fouls. We believe that VARS has the potential to revolutionize soccer refereeing and take the game to new heights of fairness and accuracy across all levels of professional and amateur federations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/egoloc-iccv/">
+  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/vars-cvpr/">
 
   
 
@@ -136,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://abdullahamdi.com/publication/egoloc-iccv/">
+  <link rel="canonical" href="https://abdullahamdi.com/publication/vars-cvpr/">
 
   
   
@@ -151,15 +151,15 @@
   <meta property="twitter:creator" content="@Eng_Hemdi">
   
   <meta property="og:site_name" content="Abdullah Hamdi">
-  <meta property="og:url" content="https://abdullahamdi.com/publication/egoloc-iccv/">
-  <meta property="og:title" content="EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries | Abdullah Hamdi">
-  <meta property="og:description" content="With the recent advances in video and 3D understanding, novel 4D spatio-temporal methods fusing both concepts have emerged. Towards this direction, the Ego4D Episodic Memory Benchmark proposed a task for Visual Queries with 3D Localization (VQ3D). Given an egocentric video clip and an image crop depicting a query object, the goal is to localize the 3D position of the center of that query object with respect to the camera pose of a query frame. Current methods tackle the problem of VQ3D by unprojecting the 2D localization results of the sibling task Visual Queries with 2D Localization (VQ2D) into 3D predictions. Yet, we point out that the low number of camera poses caused by camera re-localization from previous VQ3D methods severally hinders their overall success rate. In this work, we formalize a pipeline (we dub EgoLoc) that better entangles 3D multiview geometry with 2D object retrieval from egocentric videos. Our approach involves estimating more robust camera poses and aggregating multi-view 3D displacements by leveraging the 2D detection confidence, which enhances the success rate of object queries and leads to a significant improvement in the VQ3D baseline performance. Specifically, our approach achieves an overall success rate of up to 87.12%, which sets a new state-of-the-art result in the VQ3D task. We provide a comprehensive empirical analysis of the VQ3D task and existing solutions and highlight the remaining challenges in VQ3D. The code and models will be released upon publication to set a new standard for the VQ3D task"><meta property="og:image" content="https://abdullahamdi.com/publication/egoloc-iccv/featured.png">
-  <meta property="twitter:image" content="https://abdullahamdi.com/publication/egoloc-iccv/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://abdullahamdi.com/publication/vars-cvpr/">
+  <meta property="og:title" content="VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views | Abdullah Hamdi">
+  <meta property="og:description" content="The Video Assistant Referee (VAR) has revolutionized association football, enabling referees to review incidents on the pitch, make informed decisions, and ensure fairness. However, due to the lack of referees in many countries and the high cost of the VAR infrastructure, only professional leagues can benefit from it. In this paper, we propose a Video Assistant Referee System (VARS) that can automate soccer decision-making. VARS leverages the latest findings in multi-view video analysis, to provide real-time feedback to the referee, and help them make informed decisions that can impact the outcome of a game. To validate VARS, we introduce SoccerNet-MVFoul, a novel video dataset of soccer fouls from multiple camera views, annotated with extensive foul descriptions by a professional soccer referee, and we benchmark our VARS to automatically recognize the characteristics of these fouls. We believe that VARS has the potential to revolutionize soccer refereeing and take the game to new heights of fairness and accuracy across all levels of professional and amateur federations."><meta property="og:image" content="https://abdullahamdi.com/publication/vars-cvpr/featured.png">
+  <meta property="twitter:image" content="https://abdullahamdi.com/publication/vars-cvpr/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-09-25T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2023-06-22T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2023-09-25T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2023-06-22T00:00:00&#43;01:00">
   
 
   
@@ -183,20 +183,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://abdullahamdi.com/publication/egoloc-iccv/"
+    "@id": "https://abdullahamdi.com/publication/vars-cvpr/"
   },
-  "headline": "EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries",
+  "headline": "VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views",
   
   "image": [
-    "https://abdullahamdi.com/publication/egoloc-iccv/featured.png"
+    "https://abdullahamdi.com/publication/vars-cvpr/featured.png"
   ],
   
-  "datePublished": "2023-09-25T00:00:00+01:00",
-  "dateModified": "2023-09-25T00:00:00+01:00",
+  "datePublished": "2023-06-22T00:00:00+01:00",
+  "dateModified": "2023-06-22T00:00:00+01:00",
   
   "author": {
     "@type": "Person",
-    "name": "Jinjie Mai"
+    "name": "Jan Held"
   },
   
   "publisher": {
@@ -207,7 +207,7 @@
       "url": "https://abdullahamdi.com/img/icon-512.png"
     }
   },
-  "description": "With the recent advances in video and 3D understanding, novel 4D spatio-temporal methods fusing both concepts have emerged. Towards this direction, the Ego4D Episodic Memory Benchmark proposed a task for Visual Queries with 3D Localization (VQ3D). Given an egocentric video clip and an image crop depicting a query object, the goal is to localize the 3D position of the center of that query object with respect to the camera pose of a query frame. Current methods tackle the problem of VQ3D by unprojecting the 2D localization results of the sibling task Visual Queries with 2D Localization (VQ2D) into 3D predictions. Yet, we point out that the low number of camera poses caused by camera re-localization from previous VQ3D methods severally hinders their overall success rate. In this work, we formalize a pipeline (we dub EgoLoc) that better entangles 3D multiview geometry with 2D object retrieval from egocentric videos. Our approach involves estimating more robust camera poses and aggregating multi-view 3D displacements by leveraging the 2D detection confidence, which enhances the success rate of object queries and leads to a significant improvement in the VQ3D baseline performance. Specifically, our approach achieves an overall success rate of up to 87.12%, which sets a new state-of-the-art result in the VQ3D task. We provide a comprehensive empirical analysis of the VQ3D task and existing solutions and highlight the remaining challenges in VQ3D. The code and models will be released upon publication to set a new standard for the VQ3D task"
+  "description": "The Video Assistant Referee (VAR) has revolutionized association football, enabling referees to review incidents on the pitch, make informed decisions, and ensure fairness. However, due to the lack of referees in many countries and the high cost of the VAR infrastructure, only professional leagues can benefit from it. In this paper, we propose a Video Assistant Referee System (VARS) that can automate soccer decision-making. VARS leverages the latest findings in multi-view video analysis, to provide real-time feedback to the referee, and help them make informed decisions that can impact the outcome of a game. To validate VARS, we introduce SoccerNet-MVFoul, a novel video dataset of soccer fouls from multiple camera views, annotated with extensive foul descriptions by a professional soccer referee, and we benchmark our VARS to automatically recognize the characteristics of these fouls. We believe that VARS has the potential to revolutionize soccer refereeing and take the game to new heights of fairness and accuracy across all levels of professional and amateur federations."
 }
 </script>
 
@@ -225,7 +225,7 @@
 
 
 
-  <title>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries | Abdullah Hamdi</title>
+  <title>VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views | Abdullah Hamdi</title>
 
 </head>
 
@@ -498,12 +498,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</h1>
+  <h1>VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views</h1>
 
   
 
@@ -522,7 +520,7 @@
 
 
   
-  <span><a href="/authors/jinjie-mai/">Jinjie Mai</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>, <span><a href="/authors/silvio-giancola/">Silvio Giancola</a></span>, <span><a href="/authors/chen-zhao/">Chen Zhao</a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
+  <span><a href="/authors/jan-held/">Jan Held</a></span>, <span><a href="/authors/anthony-cioppa/">Anthony Cioppa</a></span>, <span><a href="/authors/silvio-giancola/">Silvio Giancola</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>, <span><a href="/authors/marc-van-droogenbroeck/">Marc Van Droogenbroeck</a></span>
 
   </div>
   
@@ -534,7 +532,7 @@
     
       
     
-    September 2023
+    June 2023
   </span>
   
 
@@ -579,7 +577,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2212.06969" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="http://arxiv.org/abs/2304.04617" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -592,24 +590,31 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://openaccess.thecvf.com/content/ICCV2023/papers/Mai_EgoLoc_Revisiting_3D_Object_Localization_from_Egocentric_Videos_with_Visual_ICCV_2023_paper.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openaccess.thecvf.com/content/CVPR2023W/CVSports/papers/Held_VARS_Video_Assistant_Referee_System_for_Automated_Soccer_Decision_Making_CVPRW_2023_paper.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/egoloc-iccv/cite.bib">
+        data-filename="/publication/vars-cvpr/cite.bib">
   Cite
 </button>
 
 
+
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/Wayne-Mai/EgoLoc" target="_blank" rel="noopener">
-  Code
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.soccer-net.org/data" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.soccer-net.org/home" target="_blank" rel="noopener">
+  Project
 </a>
 
 
@@ -617,24 +622,13 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/12PApRsVHOvmnNnBQS4Ywj7BgTQ_XIypA/view?usp=sharing" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
 
 
   
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://openaccess.thecvf.com/content/ICCV2023/html/Mai_EgoLoc_Revisiting_3D_Object_Localization_from_Egocentric_Videos_with_Visual_ICCV_2023_paper.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openaccess.thecvf.com/content/CVPR2023W/CVSports/html/Held_VARS_Video_Assistant_Referee_System_for_Automated_Soccer_Decision_Making_CVPRW_2023_paper.html" target="_blank" rel="noopener">
   Source Document
 </a>
 
@@ -647,9 +641,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 479px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 507px; max-height: 498px;">
   <div style="position: relative">
-    <img src="/publication/egoloc-iccv/featured_hu2e97c705b1a48a71a0b12b0068850ce1_1108735_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/vars-cvpr/featured.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -660,7 +654,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">With the recent advances in video and 3D understanding, novel 4D spatio-temporal methods fusing both concepts have emerged. Towards this direction, the Ego4D Episodic Memory Benchmark proposed a task for Visual Queries with 3D Localization (VQ3D). Given an egocentric video clip and an image crop depicting a query object, the goal is to localize the 3D position of the center of that query object with respect to the camera pose of a query frame. Current methods tackle the problem of VQ3D by unprojecting the 2D localization results of the sibling task Visual Queries with 2D Localization (VQ2D) into 3D predictions. Yet, we point out that the low number of camera poses caused by camera re-localization from previous VQ3D methods severally hinders their overall success rate. In this work, we formalize a pipeline (we dub EgoLoc) that better entangles 3D multiview geometry with 2D object retrieval from egocentric videos. Our approach involves estimating more robust camera poses and aggregating multi-view 3D displacements by leveraging the 2D detection confidence, which enhances the success rate of object queries and leads to a significant improvement in the VQ3D baseline performance. Specifically, our approach achieves an overall success rate of up to 87.12%, which sets a new state-of-the-art result in the VQ3D task. We provide a comprehensive empirical analysis of the VQ3D task and existing solutions and highlight the remaining challenges in VQ3D. The code and models will be released upon publication to set a new standard for the VQ3D task</p>
+    <p class="pub-abstract">The Video Assistant Referee (VAR) has revolutionized association football, enabling referees to review incidents on the pitch, make informed decisions, and ensure fairness. However, due to the lack of referees in many countries and the high cost of the VAR infrastructure, only professional leagues can benefit from it. In this paper, we propose a Video Assistant Referee System (VARS) that can automate soccer decision-making. VARS leverages the latest findings in multi-view video analysis, to provide real-time feedback to the referee, and help them make informed decisions that can impact the outcome of a game. To validate VARS, we introduce SoccerNet-MVFoul, a novel video dataset of soccer fouls from multiple camera views, annotated with extensive foul descriptions by a professional soccer referee, and we benchmark our VARS to automatically recognize the characteristics of these fouls. We believe that VARS has the potential to revolutionize soccer refereeing and take the game to new heights of fairness and accuracy across all levels of professional and amateur federations.</p>
     
 
     
@@ -690,7 +684,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <a href="http://iccv2023.thecvf.com"><em>IEEE International Conference on Computer Vision</em> (ICCV) 2023</a></div>
+          <div class="col-12 col-md-9">In <a href="https://vap.aau.dk/cvsports/">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<em>CVPR 2023</em>) Workshop on Computer Vision in Sports (CVSports)</a></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -712,11 +706,15 @@
   
   <a class="badge badge-light" href="/tags/3d-point-cloud/">3D point cloud</a>
   
-  <a class="badge badge-light" href="/tags/3d-classification/">3D classification</a>
+  <a class="badge badge-light" href="/tags/3d-radiance-fields/">3D radiance fields</a>
   
   <a class="badge badge-light" href="/tags/multi-view/">multi-view</a>
   
   <a class="badge badge-light" href="/tags/3d-retrieval/">3D retrieval</a>
+  
+  <a class="badge badge-light" href="/tags/nerf/">NeRF</a>
+  
+  <a class="badge badge-light" href="/tags/sparse-voxels/">sparse voxels</a>
   
 </div>
 
@@ -733,7 +731,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/egoloc-iccv/&amp;text=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/vars-cvpr/&amp;text=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -746,7 +744,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/egoloc-iccv/&amp;t=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/vars-cvpr/&amp;t=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -759,7 +757,7 @@
       
       
       <li>
-        <a href="mailto:?subject=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries&amp;body=https://abdullahamdi.com/publication/egoloc-iccv/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views&amp;body=https://abdullahamdi.com/publication/vars-cvpr/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -772,7 +770,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/egoloc-iccv/&amp;title=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/vars-cvpr/&amp;title=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -785,7 +783,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries%20https://abdullahamdi.com/publication/egoloc-iccv/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views%20https://abdullahamdi.com/publication/vars-cvpr/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -798,7 +796,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/egoloc-iccv/&amp;title=EgoLoc:%20Revisiting%203D%20Object%20Localization%20from%20Egocentric%20Videos%20with%20Visual%20Queries" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/vars-cvpr/&amp;title=VARS:%20Video%20Assistant%20Referee%20System%20for%20Automated%20Soccer%20Decision%20Making%20From%20Multiple%20Views" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -836,7 +834,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/jinjie-mai/"></a></h5>
+      <h5 class="card-title"><a href="/authors/jan-held/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -864,11 +862,7 @@
       
       <li><a href="/publication/mvtn-iccv/">MVTN: Multi-View Transformation Network for 3D Shape Recognition</a></li>
       
-      <li><a href="/publication/sparf/">SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</a></li>
-      
-      <li><a href="/publication/magic123/">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</a></li>
-      
-      <li><a href="/publication/vars-cvpr/">VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views</a></li>
+      <li><a href="/publication/advpc-arxive/">AdvPC: Transferable Adversarial Perturbations on 3D Point Clouds</a></li>
       
     </ul>
   </div>

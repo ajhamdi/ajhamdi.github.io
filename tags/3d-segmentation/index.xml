@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/3d-segmentation/</link>
       <atom:link href="https://abdullahamdi.com/tags/3d-segmentation/index.xml" rel="self" type="application/rss+xml" />
     <description>3D segmentation</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 25 Sep 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>3D segmentation</title>
       <link>https://abdullahamdi.com/tags/3d-segmentation/</link>
     </image>
+    
+    <item>
+      <title>Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding</title>
+      <link>https://abdullahamdi.com/publication/pix4point/</link>
+      <pubDate>Mon, 16 Oct 2023 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/pix4point/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding</title>

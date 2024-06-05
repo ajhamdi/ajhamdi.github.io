@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/</link>
       <atom:link href="https://abdullahamdi.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Abdullah Hamdi</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Abdullah Hamdi</title>
       <link>https://abdullahamdi.com/</link>
     </image>
+    
+    <item>
+      <title>X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</title>
+      <link>https://abdullahamdi.com/publication/xdiff/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/xdiff/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</title>

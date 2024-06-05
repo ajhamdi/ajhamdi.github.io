@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/3d/</link>
+      <atom:link href="https://abdullahamdi.com/tags/3d/index.xml" rel="self" type="application/rss+xml" />
+    <description>3D</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>3D</title>
+      <link>https://abdullahamdi.com/tags/3d/</link>
+    </image>
+    
+    <item>
+      <title>X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</title>
+      <link>https://abdullahamdi.com/publication/xdiff/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/xdiff/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

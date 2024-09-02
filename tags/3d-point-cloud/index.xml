@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/3d-point-cloud/</link>
       <atom:link href="https://abdullahamdi.com/tags/3d-point-cloud/index.xml" rel="self" type="application/rss+xml" />
     <description>3D point cloud</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 30 Aug 2024 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>3D point cloud</title>
       <link>https://abdullahamdi.com/tags/3d-point-cloud/</link>
     </image>
+    
+    <item>
+      <title>TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks</title>
+      <link>https://abdullahamdi.com/publication/track/</link>
+      <pubDate>Fri, 30 Aug 2024 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/track/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</title>
@@ -41,14 +49,6 @@
       <link>https://abdullahamdi.com/publication/egoloc-iccv/</link>
       <pubDate>Mon, 25 Sep 2023 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/egoloc-iccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</title>
-      <link>https://abdullahamdi.com/publication/track/</link>
-      <pubDate>Mon, 25 Sep 2023 00:00:00 +0100</pubDate>
-      <guid>https://abdullahamdi.com/publication/track/</guid>
       <description></description>
     </item>
     

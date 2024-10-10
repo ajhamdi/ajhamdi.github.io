@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Body pose estimation | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/body-pose-estimation/</link>
+      <atom:link href="https://abdullahamdi.com/tags/body-pose-estimation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Body pose estimation</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>Body pose estimation</title>
+      <link>https://abdullahamdi.com/tags/body-pose-estimation/</link>
+    </image>
+    
+    <item>
+      <title>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</title>
+      <link>https://abdullahamdi.com/publication/gst/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/gst/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

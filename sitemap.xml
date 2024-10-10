@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://abdullahamdi.com/tags/3d-gaussian-splatting/</loc>
+    <lastmod>2024-09-15T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://abdullahamdi.com/</loc>
     <lastmod>2024-09-15T00:00:00+01:00</lastmod>
   </url>
@@ -28,12 +33,12 @@
   </url>
   
   <url>
-    <loc>https://abdullahamdi.com/authors/christian-rupprecht/</loc>
+    <loc>https://abdullahamdi.com/tags/body-pose-estimation/</loc>
     <lastmod>2024-09-15T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abdullahamdi.com/tags/diffusion/</loc>
+    <loc>https://abdullahamdi.com/authors/christian-rupprecht/</loc>
     <lastmod>2024-09-15T00:00:00+01:00</lastmod>
   </url>
   
@@ -49,11 +54,6 @@
   
   <url>
     <loc>https://abdullahamdi.com/authors/lorenza-prospero/</loc>
-    <lastmod>2024-09-15T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://abdullahamdi.com/tags/medical-imaing/</loc>
     <lastmod>2024-09-15T00:00:00+01:00</lastmod>
   </url>
   
@@ -163,7 +163,17 @@
   </url>
   
   <url>
+    <loc>https://abdullahamdi.com/tags/diffusion/</loc>
+    <lastmod>2024-04-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://abdullahamdi.com/authors/emmanuelle-bourigault/</loc>
+    <lastmod>2024-04-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://abdullahamdi.com/tags/medical-imaing/</loc>
     <lastmod>2024-04-17T00:00:00+01:00</lastmod>
   </url>
   

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Medical Imaing | Abdullah Hamdi</title>
-    <link>https://abdullahamdi.com/tags/medical-imaing/</link>
-      <atom:link href="https://abdullahamdi.com/tags/medical-imaing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Medical Imaing</description>
+    <title>Joao F. Henriques | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/authors/joao-f.-henriques/</link>
+      <atom:link href="https://abdullahamdi.com/authors/joao-f.-henriques/index.xml" rel="self" type="application/rss+xml" />
+    <description>Joao F. Henriques</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
-      <title>Medical Imaing</title>
-      <link>https://abdullahamdi.com/tags/medical-imaing/</link>
+      <title>Joao F. Henriques</title>
+      <link>https://abdullahamdi.com/authors/joao-f.-henriques/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://abdullahamdi.com/publication/gst/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0100</pubDate>
       <guid>https://abdullahamdi.com/publication/gst/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</title>
-      <link>https://abdullahamdi.com/publication/xdiff/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0100</pubDate>
-      <guid>https://abdullahamdi.com/publication/xdiff/</guid>
       <description></description>
     </item>
     

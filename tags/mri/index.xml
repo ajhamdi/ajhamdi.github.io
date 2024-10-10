@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/mri/</link>
       <atom:link href="https://abdullahamdi.com/tags/mri/index.xml" rel="self" type="application/rss+xml" />
     <description>MRI</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>MRI</title>
       <link>https://abdullahamdi.com/tags/mri/</link>
     </image>
+    
+    <item>
+      <title>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</title>
+      <link>https://abdullahamdi.com/publication/gst/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/gst/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</title>

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Neural radiance fields (NeRFs) generally require many images with accurate poses for accurate novel view synthesis, which does not reflect realistic setups where views can be sparse and poses can be noisy. Previous solutions for learning NeRFs with sparse views and noisy poses only consider local geometry consistency with pairs of views. Closely following bundle adjustment in Structure-from-Motion (SfM), we introduce TrackNeRF for more globally consistent geometry reconstruction and more accurate pose optimization. TrackNeRF introduces feature tracks, i.e. connected pixel trajectories across all visible views that correspond to the same 3D points. By enforcing reprojection consistency among feature tracks, TrackNeRF encourages holistic 3D consistency explicitly. Through extensive experiments, TrackNeRF sets a new benchmark in noisy and sparse view reconstruction. In particular, TrackNeRF shows significant improvements over the state-of-the-art BARF and SPARF by ∼8 and ∼1 in terms of PSNR on DTU under various sparse and noisy view setups. ">
+  <meta name="description" content="We base our work on 3D Gaussian Splatting (3DGS), a scene representation composed of a mixture of Gaussians. Predicting such mixtures for a human from a single input image is challenging, as it is a non-uniform density (with a many-to-one relationship with input pixels) with strict physical constraints. At the same time, it needs to be flexible to accommodate a variety of clothes and poses. Our key observation is that the vertices of standardized human meshes (such as SMPL) can provide an adequate density and approximate initial position for Gaussians. We can then train a transformer model to jointly predict comparatively small adjustments to these positions, as well as the other Gaussians&#39; attributes and the SMPL parameters. We show empirically that this combination (using only multi-view supervision) can achieve fast inference of 3D human models from a single image without test-time optimization, expensive diffusion models, or 3D points supervision. We also show that it can improve 3D pose estimation by better fitting human models that account for clothes and other variations.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/track/">
+  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/gst/">
 
   
 
@@ -136,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://abdullahamdi.com/publication/track/">
+  <link rel="canonical" href="https://abdullahamdi.com/publication/gst/">
 
   
   
@@ -151,15 +151,15 @@
   <meta property="twitter:creator" content="@Eng_Hemdi">
   
   <meta property="og:site_name" content="Abdullah Hamdi">
-  <meta property="og:url" content="https://abdullahamdi.com/publication/track/">
-  <meta property="og:title" content="TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks | Abdullah Hamdi">
-  <meta property="og:description" content="Neural radiance fields (NeRFs) generally require many images with accurate poses for accurate novel view synthesis, which does not reflect realistic setups where views can be sparse and poses can be noisy. Previous solutions for learning NeRFs with sparse views and noisy poses only consider local geometry consistency with pairs of views. Closely following bundle adjustment in Structure-from-Motion (SfM), we introduce TrackNeRF for more globally consistent geometry reconstruction and more accurate pose optimization. TrackNeRF introduces feature tracks, i.e. connected pixel trajectories across all visible views that correspond to the same 3D points. By enforcing reprojection consistency among feature tracks, TrackNeRF encourages holistic 3D consistency explicitly. Through extensive experiments, TrackNeRF sets a new benchmark in noisy and sparse view reconstruction. In particular, TrackNeRF shows significant improvements over the state-of-the-art BARF and SPARF by ∼8 and ∼1 in terms of PSNR on DTU under various sparse and noisy view setups. "><meta property="og:image" content="https://abdullahamdi.com/publication/track/featured.png">
-  <meta property="twitter:image" content="https://abdullahamdi.com/publication/track/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://abdullahamdi.com/publication/gst/">
+  <meta property="og:title" content="GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers | Abdullah Hamdi">
+  <meta property="og:description" content="We base our work on 3D Gaussian Splatting (3DGS), a scene representation composed of a mixture of Gaussians. Predicting such mixtures for a human from a single input image is challenging, as it is a non-uniform density (with a many-to-one relationship with input pixels) with strict physical constraints. At the same time, it needs to be flexible to accommodate a variety of clothes and poses. Our key observation is that the vertices of standardized human meshes (such as SMPL) can provide an adequate density and approximate initial position for Gaussians. We can then train a transformer model to jointly predict comparatively small adjustments to these positions, as well as the other Gaussians&#39; attributes and the SMPL parameters. We show empirically that this combination (using only multi-view supervision) can achieve fast inference of 3D human models from a single image without test-time optimization, expensive diffusion models, or 3D points supervision. We also show that it can improve 3D pose estimation by better fitting human models that account for clothes and other variations."><meta property="og:image" content="https://abdullahamdi.com/publication/gst/featured.png">
+  <meta property="twitter:image" content="https://abdullahamdi.com/publication/gst/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2024-08-30T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2024-09-15T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2024-08-30T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2024-09-15T00:00:00&#43;01:00">
   
 
   
@@ -183,20 +183,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://abdullahamdi.com/publication/track/"
+    "@id": "https://abdullahamdi.com/publication/gst/"
   },
-  "headline": "TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks",
+  "headline": "GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers",
   
   "image": [
-    "https://abdullahamdi.com/publication/track/featured.png"
+    "https://abdullahamdi.com/publication/gst/featured.png"
   ],
   
-  "datePublished": "2024-08-30T00:00:00+01:00",
-  "dateModified": "2024-08-30T00:00:00+01:00",
+  "datePublished": "2024-09-15T00:00:00+01:00",
+  "dateModified": "2024-09-15T00:00:00+01:00",
   
   "author": {
     "@type": "Person",
-    "name": "Jinjie Mai"
+    "name": "Lorenza Prospero"
   },
   
   "publisher": {
@@ -207,7 +207,7 @@
       "url": "https://abdullahamdi.com/img/icon-512.png"
     }
   },
-  "description": "Neural radiance fields (NeRFs) generally require many images with accurate poses for accurate novel view synthesis, which does not reflect realistic setups where views can be sparse and poses can be noisy. Previous solutions for learning NeRFs with sparse views and noisy poses only consider local geometry consistency with pairs of views. Closely following bundle adjustment in Structure-from-Motion (SfM), we introduce TrackNeRF for more globally consistent geometry reconstruction and more accurate pose optimization. TrackNeRF introduces feature tracks, i.e. connected pixel trajectories across all visible views that correspond to the same 3D points. By enforcing reprojection consistency among feature tracks, TrackNeRF encourages holistic 3D consistency explicitly. Through extensive experiments, TrackNeRF sets a new benchmark in noisy and sparse view reconstruction. In particular, TrackNeRF shows significant improvements over the state-of-the-art BARF and SPARF by ∼8 and ∼1 in terms of PSNR on DTU under various sparse and noisy view setups. "
+  "description": "We base our work on 3D Gaussian Splatting (3DGS), a scene representation composed of a mixture of Gaussians. Predicting such mixtures for a human from a single input image is challenging, as it is a non-uniform density (with a many-to-one relationship with input pixels) with strict physical constraints. At the same time, it needs to be flexible to accommodate a variety of clothes and poses. Our key observation is that the vertices of standardized human meshes (such as SMPL) can provide an adequate density and approximate initial position for Gaussians. We can then train a transformer model to jointly predict comparatively small adjustments to these positions, as well as the other Gaussians' attributes and the SMPL parameters. We show empirically that this combination (using only multi-view supervision) can achieve fast inference of 3D human models from a single image without test-time optimization, expensive diffusion models, or 3D points supervision. We also show that it can improve 3D pose estimation by better fitting human models that account for clothes and other variations."
 }
 </script>
 
@@ -225,7 +225,7 @@
 
 
 
-  <title>TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks | Abdullah Hamdi</title>
+  <title>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers | Abdullah Hamdi</title>
 
 </head>
 
@@ -498,12 +498,10 @@
 
   
   
-    
-  
 
 
 <div class="article-container pt-3">
-  <h1>TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks</h1>
+  <h1>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</h1>
 
   
 
@@ -522,7 +520,7 @@
 
 
   
-  <span><a href="/authors/jinjie-mai/">Jinjie Mai</a></span>, <span><a href="/authors/wenxuan-zhu/">Wenxuan Zhu</a></span>, <span><a href="/authors/sara-rojas-martinez/">Sara Rojas Martinez</a></span>, <span><a href="/authors/jesus-zarzar/">Jesus Zarzar</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>, <span><a href="/authors/guocheng-qian/">Guocheng Qian</a></span>, <span><a href="/authors/bing-li/">Bing Li</a></span>, <span><a href="/authors/silvio-giancola/">Silvio Giancola</a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
+  <span><a href="/authors/lorenza-prospero/">Lorenza Prospero</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>, <span><a href="/authors/joao-f.-henriques/">Joao F. Henriques</a></span>, <span><a href="/authors/christian-rupprecht/">Christian Rupprecht</a></span>
 
   </div>
   
@@ -534,7 +532,7 @@
     
       
     
-    August 2024
+    September 2024
   </span>
   
 
@@ -579,7 +577,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2408.10739" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2409.04196" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -592,14 +590,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/01990.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2409.04196" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/track/cite.bib">
+        data-filename="/publication/gst/cite.bib">
   Cite
 </button>
 
@@ -608,28 +606,19 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/Wayne-Mai/traf_public" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/prosperolo/GST" target="_blank" rel="noopener">
   Code
 </a>
 
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://tracknerf.github.io/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://abdullahamdi.com/gst/" target="_blank" rel="noopener">
   Project
 </a>
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/1pT4Z6QEUB7tqftrRiiOiPTHsPKfAGrDl/view?usp=sharing" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
 
 
 
@@ -638,9 +627,10 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1990_ECCV_2024_paper.php" target="_blank" rel="noopener">
-  Source Document
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/nlo6VN_WXrs" target="_blank" rel="noopener">
+  Video
 </a>
+
 
 
 
@@ -651,9 +641,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 369px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 481px; max-height: 330px;">
   <div style="position: relative">
-    <img src="/publication/track/featured_hua0a1fcf9c030996d5896fb5de99e9df2_1128696_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/gst/featured.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -664,28 +654,9 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Neural radiance fields (NeRFs) generally require many images with accurate poses for accurate novel view synthesis, which does not reflect realistic setups where views can be sparse and poses can be noisy. Previous solutions for learning NeRFs with sparse views and noisy poses only consider local geometry consistency with pairs of views. Closely following bundle adjustment in Structure-from-Motion (SfM), we introduce TrackNeRF for more globally consistent geometry reconstruction and more accurate pose optimization. TrackNeRF introduces feature tracks, i.e. connected pixel trajectories across all visible views that correspond to the same 3D points. By enforcing reprojection consistency among feature tracks, TrackNeRF encourages holistic 3D consistency explicitly. Through extensive experiments, TrackNeRF sets a new benchmark in noisy and sparse view reconstruction. In particular, TrackNeRF shows significant improvements over the state-of-the-art BARF and SPARF by ∼8 and ∼1 in terms of PSNR on DTU under various sparse and noisy view setups.</p>
+    <p class="pub-abstract">We base our work on 3D Gaussian Splatting (3DGS), a scene representation composed of a mixture of Gaussians. Predicting such mixtures for a human from a single input image is challenging, as it is a non-uniform density (with a many-to-one relationship with input pixels) with strict physical constraints. At the same time, it needs to be flexible to accommodate a variety of clothes and poses. Our key observation is that the vertices of standardized human meshes (such as SMPL) can provide an adequate density and approximate initial position for Gaussians. We can then train a transformer model to jointly predict comparatively small adjustments to these positions, as well as the other Gaussians&rsquo; attributes and the SMPL parameters. We show empirically that this combination (using only multi-view supervision) can achieve fast inference of 3D human models from a single image without test-time optimization, expensive diffusion models, or 3D points supervision. We also show that it can improve 3D pose estimation by better fitting human models that account for clothes and other variations.</p>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     
@@ -694,7 +665,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <a href="https://eccv2024.ecva.net/"><em>European conference on computer vision</em> (ECCV) 2024</a></div>
+          <div class="col-12 col-md-9">In Arxiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -714,13 +685,17 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/3d-point-cloud/">3D point cloud</a>
+  <a class="badge badge-light" href="/tags/medical-imaing/">Medical Imaing</a>
   
-  <a class="badge badge-light" href="/tags/3d-classification/">3D classification</a>
+  <a class="badge badge-light" href="/tags/mri/">MRI</a>
   
   <a class="badge badge-light" href="/tags/multi-view/">multi-view</a>
   
-  <a class="badge badge-light" href="/tags/3d-retrieval/">3D retrieval</a>
+  <a class="badge badge-light" href="/tags/novel-view-synthesis/">novel view synthesis</a>
+  
+  <a class="badge badge-light" href="/tags/3d/">3D</a>
+  
+  <a class="badge badge-light" href="/tags/diffusion/">Diffusion</a>
   
 </div>
 
@@ -737,7 +712,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/track/&amp;text=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/gst/&amp;text=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -750,7 +725,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/track/&amp;t=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/gst/&amp;t=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -763,7 +738,7 @@
       
       
       <li>
-        <a href="mailto:?subject=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks&amp;body=https://abdullahamdi.com/publication/track/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers&amp;body=https://abdullahamdi.com/publication/gst/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -776,7 +751,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/track/&amp;title=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/gst/&amp;title=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -789,7 +764,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks%20https://abdullahamdi.com/publication/track/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers%20https://abdullahamdi.com/publication/gst/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -802,7 +777,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/track/&amp;title=TrackNeRF:%20Bundle%20Adjusting%20NeRF%20from%20Sparse%20and%20Noisy%20Views%20via%20Feature%20Tracks" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/gst/&amp;title=GST:%20Precise%203D%20Human%20Body%20from%20a%20Single%20Image%20with%20Gaussian%20Splatting%20Transformers" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -840,7 +815,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/jinjie-mai/"></a></h5>
+      <h5 class="card-title"><a href="/authors/lorenza-prospero/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -864,15 +839,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/egoloc-iccv/">EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</a></li>
+      <li><a href="/publication/xdiff/">X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</a></li>
       
-      <li><a href="/publication/voint-cloud/">Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding</a></li>
+      <li><a href="/publication/ges/">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
       
-      <li><a href="/publication/mvtn-iccv/">MVTN: Multi-View Transformation Network for 3D Shape Recognition</a></li>
+      <li><a href="/publication/track/">TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks</a></li>
       
       <li><a href="/publication/magic123/">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</a></li>
       
-      <li><a href="/publication/sparf/">SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</a></li>
+      <li><a href="/publication/egoloc-iccv/">EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</a></li>
       
     </ul>
   </div>

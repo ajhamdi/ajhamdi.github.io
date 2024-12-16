@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/mri/</link>
       <atom:link href="https://abdullahamdi.com/tags/mri/index.xml" rel="self" type="application/rss+xml" />
     <description>MRI</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>MRI</title>
       <link>https://abdullahamdi.com/tags/mri/</link>
     </image>
+    
+    <item>
+      <title>Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</title>
+      <link>https://abdullahamdi.com/publication/medsam/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/medsam/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</title>

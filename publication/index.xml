@@ -5,12 +5,36 @@
     <link>https://abdullahamdi.com/publication/</link>
       <atom:link href="https://abdullahamdi.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Publications</title>
       <link>https://abdullahamdi.com/publication/</link>
     </image>
+    
+    <item>
+      <title>Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</title>
+      <link>https://abdullahamdi.com/publication/medsam/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/medsam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes</title>
+      <link>https://abdullahamdi.com/publication/cvx/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/cvx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MVTN: Learning Multi-view Transformations for 3D Understanding</title>
+      <link>https://abdullahamdi.com/publication/mvtn-ijcv/</link>
+      <pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/mvtn-ijcv/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</title>

@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/3d-radiance-fields/</link>
       <atom:link href="https://abdullahamdi.com/tags/3d-radiance-fields/index.xml" rel="self" type="application/rss+xml" />
     <description>3D radiance fields</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sat, 17 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>3D radiance fields</title>
       <link>https://abdullahamdi.com/tags/3d-radiance-fields/</link>
     </image>
+    
+    <item>
+      <title>3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes</title>
+      <link>https://abdullahamdi.com/publication/cvx/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/cvx/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</title>

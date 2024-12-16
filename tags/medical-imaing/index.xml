@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/medical-imaing/</link>
       <atom:link href="https://abdullahamdi.com/tags/medical-imaing/index.xml" rel="self" type="application/rss+xml" />
     <description>Medical Imaing</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Medical Imaing</title>
       <link>https://abdullahamdi.com/tags/medical-imaing/</link>
     </image>
+    
+    <item>
+      <title>Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</title>
+      <link>https://abdullahamdi.com/publication/medsam/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/medsam/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</title>

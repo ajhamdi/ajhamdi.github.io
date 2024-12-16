@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Renaud Vandeghen | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/authors/renaud-vandeghen/</link>
+      <atom:link href="https://abdullahamdi.com/authors/renaud-vandeghen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Renaud Vandeghen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>Renaud Vandeghen</title>
+      <link>https://abdullahamdi.com/authors/renaud-vandeghen/</link>
+    </image>
+    
+    <item>
+      <title>3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes</title>
+      <link>https://abdullahamdi.com/publication/cvx/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/cvx/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Recent advances in radiance field reconstruction, such as 3D Gaussian Splatting (3DGS), have achieved high-quality novel view synthesis and fast rendering by representing scenes with compositions of Gaussian primitives. However, 3D Gaussians present several limitations for scene reconstruction. Accurately capturing hard edges is challenging without significantly increasing the number of Gaussians, creating a large memory footprint. Moreover, they struggle to represent flat surfaces, as they are diffused in space. Without hand-crafted regularizers, they tend to disperse irregularly around the actual surface. To circumvent these issues, we introduce a novel method, named 3D Convex Splatting (3DCS), which leverages 3D smooth convexes as primitives for modeling geometrically-meaningful radiance fields from multi-view images. Smooth convex shapes offer greater flexibility than Gaussians, allowing for a better representation of 3D scenes with hard edges and dense volumes using fewer primitives. Powered by our efficient CUDA-based rasterizer, 3DCS achieves superior performance over 3DGS on benchmarks such as Mip-NeRF360, Tanks and Temples, and Deep Blending. Specifically, our method attains an improvement of up to 0.81 in PSNR and 0.026 in LPIPS compared to 3DGS while maintaining high rendering speeds and reducing the number of required primitives. Our results highlight the potential of 3D Convex Splatting to become the new standard for high-quality scene reconstruction and novel view synthesis.">
+  <meta name="description" content="In medical imaging, the primary challenge is collecting large-scale labeled data due to privacy concerns, logistics, and high labeling costs. In this work, we present the UK Biobank Organs and Bones (UKBOB), the largest labeled dataset of body organs, comprising 51,761 MRI 3D samples (equivalent to 17.9 million 2D images) and more than 1.37 billion 2D segmentation masks of 72 organs, all based on the UK Biobank MRI dataset. We utilize automatic labeling, introduce an automated label cleaning pipeline with organ-specific filters, and manually annotate a subset of 300 MRIs with 11 abdominal classes to validate the quality (referred to as UKBOB-manual). This approach allows for scaling up the dataset collection while maintaining confidence in the labels. We further confirm the validity of the labels by demonstrating zero-shot generalization of trained models on the filtered UKBOB to other small labeled datasets from similar domains (e.g., abdominal MRI). To further mitigate the effect of noisy labels, we propose a novel method called Entropy Test-time Adaptation (ETTA) to refine the segmentation output. We use UKBOB to train a foundation model, Swin-BOB, for 3D medical image segmentation based on the Swin-UNetr architecture, achieving state-of-the-art results in several benchmarks in 3D medical imaging, including the BRATS brain MRI tumor challenge (with a 0.4% improvement) and the BTCV abdominal CT scan benchmark (with a 1.3% improvement). The pre-trained models and the code are available at the project website, and the filtered labels will be made available with the UK Biobank.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/cvx/">
+  <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/ukbob/">
 
   
 
@@ -136,7 +136,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://abdullahamdi.com/publication/cvx/">
+  <link rel="canonical" href="https://abdullahamdi.com/publication/ukbob/">
 
   
   
@@ -151,15 +151,15 @@
   <meta property="twitter:creator" content="@Eng_Hemdi">
   
   <meta property="og:site_name" content="Abdullah Hamdi">
-  <meta property="og:url" content="https://abdullahamdi.com/publication/cvx/">
-  <meta property="og:title" content="3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes | Abdullah Hamdi">
-  <meta property="og:description" content="Recent advances in radiance field reconstruction, such as 3D Gaussian Splatting (3DGS), have achieved high-quality novel view synthesis and fast rendering by representing scenes with compositions of Gaussian primitives. However, 3D Gaussians present several limitations for scene reconstruction. Accurately capturing hard edges is challenging without significantly increasing the number of Gaussians, creating a large memory footprint. Moreover, they struggle to represent flat surfaces, as they are diffused in space. Without hand-crafted regularizers, they tend to disperse irregularly around the actual surface. To circumvent these issues, we introduce a novel method, named 3D Convex Splatting (3DCS), which leverages 3D smooth convexes as primitives for modeling geometrically-meaningful radiance fields from multi-view images. Smooth convex shapes offer greater flexibility than Gaussians, allowing for a better representation of 3D scenes with hard edges and dense volumes using fewer primitives. Powered by our efficient CUDA-based rasterizer, 3DCS achieves superior performance over 3DGS on benchmarks such as Mip-NeRF360, Tanks and Temples, and Deep Blending. Specifically, our method attains an improvement of up to 0.81 in PSNR and 0.026 in LPIPS compared to 3DGS while maintaining high rendering speeds and reducing the number of required primitives. Our results highlight the potential of 3D Convex Splatting to become the new standard for high-quality scene reconstruction and novel view synthesis."><meta property="og:image" content="https://abdullahamdi.com/publication/cvx/featured.png">
-  <meta property="twitter:image" content="https://abdullahamdi.com/publication/cvx/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://abdullahamdi.com/publication/ukbob/">
+  <meta property="og:title" content="UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation | Abdullah Hamdi">
+  <meta property="og:description" content="In medical imaging, the primary challenge is collecting large-scale labeled data due to privacy concerns, logistics, and high labeling costs. In this work, we present the UK Biobank Organs and Bones (UKBOB), the largest labeled dataset of body organs, comprising 51,761 MRI 3D samples (equivalent to 17.9 million 2D images) and more than 1.37 billion 2D segmentation masks of 72 organs, all based on the UK Biobank MRI dataset. We utilize automatic labeling, introduce an automated label cleaning pipeline with organ-specific filters, and manually annotate a subset of 300 MRIs with 11 abdominal classes to validate the quality (referred to as UKBOB-manual). This approach allows for scaling up the dataset collection while maintaining confidence in the labels. We further confirm the validity of the labels by demonstrating zero-shot generalization of trained models on the filtered UKBOB to other small labeled datasets from similar domains (e.g., abdominal MRI). To further mitigate the effect of noisy labels, we propose a novel method called Entropy Test-time Adaptation (ETTA) to refine the segmentation output. We use UKBOB to train a foundation model, Swin-BOB, for 3D medical image segmentation based on the Swin-UNetr architecture, achieving state-of-the-art results in several benchmarks in 3D medical imaging, including the BRATS brain MRI tumor challenge (with a 0.4% improvement) and the BTCV abdominal CT scan benchmark (with a 1.3% improvement). The pre-trained models and the code are available at the project website, and the filtered labels will be made available with the UK Biobank."><meta property="og:image" content="https://abdullahamdi.com/publication/ukbob/featured.png">
+  <meta property="twitter:image" content="https://abdullahamdi.com/publication/ukbob/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2024-11-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2025-04-10T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2024-11-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-04-10T00:00:00&#43;01:00">
   
 
   
@@ -183,20 +183,20 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://abdullahamdi.com/publication/cvx/"
+    "@id": "https://abdullahamdi.com/publication/ukbob/"
   },
-  "headline": "3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes",
+  "headline": "UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation",
   
   "image": [
-    "https://abdullahamdi.com/publication/cvx/featured.png"
+    "https://abdullahamdi.com/publication/ukbob/featured.png"
   ],
   
-  "datePublished": "2024-11-20T00:00:00Z",
-  "dateModified": "2024-11-20T00:00:00Z",
+  "datePublished": "2025-04-10T00:00:00+01:00",
+  "dateModified": "2025-04-10T00:00:00+01:00",
   
   "author": {
     "@type": "Person",
-    "name": "Jan Held*"
+    "name": "Emmanuelle Bourigault"
   },
   
   "publisher": {
@@ -207,7 +207,7 @@
       "url": "https://abdullahamdi.com/img/icon-512.png"
     }
   },
-  "description": "Recent advances in radiance field reconstruction, such as 3D Gaussian Splatting (3DGS), have achieved high-quality novel view synthesis and fast rendering by representing scenes with compositions of Gaussian primitives. However, 3D Gaussians present several limitations for scene reconstruction. Accurately capturing hard edges is challenging without significantly increasing the number of Gaussians, creating a large memory footprint. Moreover, they struggle to represent flat surfaces, as they are diffused in space. Without hand-crafted regularizers, they tend to disperse irregularly around the actual surface. To circumvent these issues, we introduce a novel method, named 3D Convex Splatting (3DCS), which leverages 3D smooth convexes as primitives for modeling geometrically-meaningful radiance fields from multi-view images. Smooth convex shapes offer greater flexibility than Gaussians, allowing for a better representation of 3D scenes with hard edges and dense volumes using fewer primitives. Powered by our efficient CUDA-based rasterizer, 3DCS achieves superior performance over 3DGS on benchmarks such as Mip-NeRF360, Tanks and Temples, and Deep Blending. Specifically, our method attains an improvement of up to 0.81 in PSNR and 0.026 in LPIPS compared to 3DGS while maintaining high rendering speeds and reducing the number of required primitives. Our results highlight the potential of 3D Convex Splatting to become the new standard for high-quality scene reconstruction and novel view synthesis."
+  "description": "In medical imaging, the primary challenge is collecting large-scale labeled data due to privacy concerns, logistics, and high labeling costs. In this work, we present the UK Biobank Organs and Bones (UKBOB), the largest labeled dataset of body organs, comprising 51,761 MRI 3D samples (equivalent to 17.9 million 2D images) and more than 1.37 billion 2D segmentation masks of 72 organs, all based on the UK Biobank MRI dataset. We utilize automatic labeling, introduce an automated label cleaning pipeline with organ-specific filters, and manually annotate a subset of 300 MRIs with 11 abdominal classes to validate the quality (referred to as UKBOB-manual). This approach allows for scaling up the dataset collection while maintaining confidence in the labels. We further confirm the validity of the labels by demonstrating zero-shot generalization of trained models on the filtered UKBOB to other small labeled datasets from similar domains (e.g., abdominal MRI). To further mitigate the effect of noisy labels, we propose a novel method called Entropy Test-time Adaptation (ETTA) to refine the segmentation output. We use UKBOB to train a foundation model, Swin-BOB, for 3D medical image segmentation based on the Swin-UNetr architecture, achieving state-of-the-art results in several benchmarks in 3D medical imaging, including the BRATS brain MRI tumor challenge (with a 0.4% improvement) and the BTCV abdominal CT scan benchmark (with a 1.3% improvement). The pre-trained models and the code are available at the project website, and the filtered labels will be made available with the UK Biobank."
 }
 </script>
 
@@ -225,7 +225,7 @@
 
 
 
-  <title>3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes | Abdullah Hamdi</title>
+  <title>UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation | Abdullah Hamdi</title>
 
 </head>
 
@@ -503,7 +503,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes</h1>
+  <h1>UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation</h1>
 
   
 
@@ -522,7 +522,7 @@
 
 
   
-  <span><a href="/authors/jan-held/">Jan Held*</a></span>, <span><a href="/authors/renaud-vandeghen/">Renaud Vandeghen*</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong>*</a></span>, <span><a href="/authors/adrien-deliege/">Adrien Deliege,</a></span>, <span><a href="/authors/anthony-cioppa/">Anthony Cioppa</a></span>, <span><a href="/authors/silvio-giancola/">Silvio Giancola</a></span>, <span><a href="/authors/andrea-vedaldi/">Andrea Vedaldi</a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>, <span><a href="/authors/marc-van-droogenbroeck/">Marc Van Droogenbroeck</a></span>
+  <span><a href="/authors/emmanuelle-bourigault/">Emmanuelle Bourigault</a></span>, <span><a href="/authors/amir-jamaludin/">Amir Jamaludin</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>
 
   </div>
   
@@ -534,7 +534,7 @@
     
       
     
-    November 2024
+    April 2025
   </span>
   
 
@@ -579,7 +579,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2411.14974" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2504.06908" target="_blank" rel="noopener">
   Preprint
 </a>
 
@@ -592,30 +592,22 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2411.14974" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2504.06908" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/cvx/cite.bib">
+        data-filename="/publication/ukbob/cite.bib">
   Cite
 </button>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/convexsplatting/convex-splatting" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://convexsplatting.github.io/" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://emmanuelleb985.github.io/ukbob" target="_blank" rel="noopener">
   Project
 </a>
 
@@ -629,7 +621,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/5N3OFHH7lbU?si=iuLpIQ_gTFTz0g0Y" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/pxhqze2Gv5U" target="_blank" rel="noopener">
   Video
 </a>
 
@@ -643,9 +635,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 346px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 647px;">
   <div style="position: relative">
-    <img src="/publication/cvx/featured_hu9a8f1aea05f09fa95bda4ced9eda3c4b_36186_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/ukbob/featured_huc852ccfd54dba2690d1625d47fb786a3_1534880_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -656,28 +648,9 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Recent advances in radiance field reconstruction, such as 3D Gaussian Splatting (3DGS), have achieved high-quality novel view synthesis and fast rendering by representing scenes with compositions of Gaussian primitives. However, 3D Gaussians present several limitations for scene reconstruction. Accurately capturing hard edges is challenging without significantly increasing the number of Gaussians, creating a large memory footprint. Moreover, they struggle to represent flat surfaces, as they are diffused in space. Without hand-crafted regularizers, they tend to disperse irregularly around the actual surface. To circumvent these issues, we introduce a novel method, named 3D Convex Splatting (3DCS), which leverages 3D smooth convexes as primitives for modeling geometrically-meaningful radiance fields from multi-view images. Smooth convex shapes offer greater flexibility than Gaussians, allowing for a better representation of 3D scenes with hard edges and dense volumes using fewer primitives. Powered by our efficient CUDA-based rasterizer, 3DCS achieves superior performance over 3DGS on benchmarks such as Mip-NeRF360, Tanks and Temples, and Deep Blending. Specifically, our method attains an improvement of up to 0.81 in PSNR and 0.026 in LPIPS compared to 3DGS while maintaining high rendering speeds and reducing the number of required primitives. Our results highlight the potential of 3D Convex Splatting to become the new standard for high-quality scene reconstruction and novel view synthesis.</p>
+    <p class="pub-abstract">In medical imaging, the primary challenge is collecting large-scale labeled data due to privacy concerns, logistics, and high labeling costs. In this work, we present the UK Biobank Organs and Bones (UKBOB), the largest labeled dataset of body organs, comprising 51,761 MRI 3D samples (equivalent to 17.9 million 2D images) and more than 1.37 billion 2D segmentation masks of 72 organs, all based on the UK Biobank MRI dataset. We utilize automatic labeling, introduce an automated label cleaning pipeline with organ-specific filters, and manually annotate a subset of 300 MRIs with 11 abdominal classes to validate the quality (referred to as UKBOB-manual). This approach allows for scaling up the dataset collection while maintaining confidence in the labels. We further confirm the validity of the labels by demonstrating zero-shot generalization of trained models on the filtered UKBOB to other small labeled datasets from similar domains (e.g., abdominal MRI). To further mitigate the effect of noisy labels, we propose a novel method called Entropy Test-time Adaptation (ETTA) to refine the segmentation output. We use UKBOB to train a foundation model, Swin-BOB, for 3D medical image segmentation based on the Swin-UNetr architecture, achieving state-of-the-art results in several benchmarks in 3D medical imaging, including the BRATS brain MRI tumor challenge (with a 0.4% improvement) and the BTCV abdominal CT scan benchmark (with a 1.3% improvement). The pre-trained models and the code are available at the project website, and the filtered labels will be made available with the UK Biobank.</p>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     
@@ -686,7 +659,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <a href="https://cvpr.thecvf.com/Conferences/2025">IEEE/CVF Conference on Computer Vision and Pattern Recognition (<em>CVPR 2025</em>)</a></div>
+          <div class="col-12 col-md-9">In Arxiv</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -706,21 +679,21 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/3d-point-cloud/">3D point cloud</a>
+  <a class="badge badge-light" href="/tags/medical-imaing/">Medical Imaing</a>
   
-  <a class="badge badge-light" href="/tags/3d-radiance-fields/">3D radiance fields</a>
+  <a class="badge badge-light" href="/tags/mri/">MRI</a>
   
   <a class="badge badge-light" href="/tags/multi-view/">multi-view</a>
   
   <a class="badge badge-light" href="/tags/novel-view-synthesis/">novel view synthesis</a>
   
-  <a class="badge badge-light" href="/tags/nerf/">NeRF</a>
+  <a class="badge badge-light" href="/tags/3d/">3D</a>
   
-  <a class="badge badge-light" href="/tags/gaussian-splatting/">Gaussian Splatting</a>
+  <a class="badge badge-light" href="/tags/diffusion/">Diffusion</a>
   
-  <a class="badge badge-light" href="/tags/convex-splatting/">convex splatting</a>
+  <a class="badge badge-light" href="/tags/3d-segmentation/">3D segmentation</a>
   
-  <a class="badge badge-light" href="/tags/convex/">convex</a>
+  <a class="badge badge-light" href="/tags/medical-image-segmentation/">medical image segmentation</a>
   
 </div>
 
@@ -737,7 +710,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/cvx/&amp;text=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://abdullahamdi.com/publication/ukbob/&amp;text=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -750,7 +723,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/cvx/&amp;t=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://abdullahamdi.com/publication/ukbob/&amp;t=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -763,7 +736,7 @@
       
       
       <li>
-        <a href="mailto:?subject=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes&amp;body=https://abdullahamdi.com/publication/cvx/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation&amp;body=https://abdullahamdi.com/publication/ukbob/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -776,7 +749,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/cvx/&amp;title=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://abdullahamdi.com/publication/ukbob/&amp;title=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -789,7 +762,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes%20https://abdullahamdi.com/publication/cvx/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation%20https://abdullahamdi.com/publication/ukbob/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -802,7 +775,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/cvx/&amp;title=3D%20Convex%20Splatting:%20Radiance%20Field%20Rendering%20with%203D%20Smooth%20Convexes" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://abdullahamdi.com/publication/ukbob/&amp;title=UKBOB:%20One%20Billion%20MRI%20Labeled%20Masks%20for%20Generalizable%203D%20Medical%20Image%20Segmentation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -840,7 +813,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/jan-held/"></a></h5>
+      <h5 class="card-title"><a href="/authors/emmanuelle-bourigault/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -864,15 +837,15 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/publication/xdiff/">X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</a></li>
+      
+      <li><a href="/publication/medsam/">Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</a></li>
+      
+      <li><a href="/publication/gst/">GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</a></li>
+      
+      <li><a href="/publication/cvx/">3D Convex Splatting: Radiance Field Rendering with 3D Smooth Convexes</a></li>
+      
       <li><a href="/publication/ges/">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-      
-      <li><a href="/publication/magic123/">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</a></li>
-      
-      <li><a href="/publication/sparf/">SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</a></li>
-      
-      <li><a href="/publication/vars-cvpr/">VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views</a></li>
-      
-      <li><a href="/publication/mvtn-ijcv/">MVTN: Learning Multi-view Transformations for 3D Understanding</a></li>
       
     </ul>
   </div>

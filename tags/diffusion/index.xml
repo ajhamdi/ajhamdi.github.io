@@ -5,12 +5,20 @@
     <link>https://abdullahamdi.com/tags/diffusion/</link>
       <atom:link href="https://abdullahamdi.com/tags/diffusion/index.xml" rel="self" type="application/rss+xml" />
     <description>Diffusion</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Fri, 22 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
       <title>Diffusion</title>
       <link>https://abdullahamdi.com/tags/diffusion/</link>
     </image>
+    
+    <item>
+      <title>UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation</title>
+      <link>https://abdullahamdi.com/publication/ukbob/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0100</pubDate>
+      <guid>https://abdullahamdi.com/publication/ukbob/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</title>

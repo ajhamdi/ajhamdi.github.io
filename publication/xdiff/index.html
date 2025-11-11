@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="In this work, we present X-Diffusion, a cross-sectional diffusion model tailored for Magnetic Resonance Imaging (MRI) data. X-Diffusion is capable of generating the entire MRI volume from just a single MRI slice or optionally from few multiple slices, setting new benchmarks in the precision of synthesized MRIs from extremely sparse observations. The uniqueness lies in the novel view-conditional training and inference of X-Diffusion on MRI volumes, allowing for generalized MRI learning. Our evaluations span both brain tumour MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Utilizing the paired pre-registered Dual-energy X-ray Absorptiometry (DXA) and MRI modalities in the UK Biobank dataset, X-Diffusion is able to generate detailed 3D MRI volume from a single full-body DXA. Remarkably, the resultant MRIs not only stand out in precision on unseen examples (surpassing state-of-the-art results by large margins) but also flawlessly retain essential features of the original MRI, including tumour profiles, spine curvature, brain volume, and beyond. Furthermore, the trained X-Diffusion model on the MRI datasets attains a generalization capacity out-of-domain (e.g. generating knee MRIs even though it is trained on brains).">
+  <meta name="description" content="Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool, but high-resolution scans are often slow and expensive due to extensive data acquisition requirements. Traditional MRI reconstruction methods aim to expedite this process by filling in missing frequency components in the K-space, performing 3D-to-3D reconstructions that demand full 3D scans. In contrast, we introduce X-Diffusion, a novel cross-sectional diffusion model that reconstructs detailed 3D MRI volumes from extremely sparse spatial-domain inputs, achieving 2D-to-3D reconstruction from as little as a single 2D MRI slice or few slices. A key aspect of X-Diffusion is that it models MRI data as holistic 3D volumes during the cross-sectional training and inference, unlike previous learning approaches that treat MRI scans as collections of 2D slices in standard planes (coronal, axial, sagittal). We evaluated X-Diffusion on brain tumor MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Our results demonstrate that X-Diffusion not only surpasses state-of-the-art methods in quantitative accuracy (PSNR) on unseen data but also preserves critical anatomical features such as tumor profiles, spine curvature, and brain volume. Remarkably, the model generalizes beyond the training domain, successfully reconstructing knee MRIs despite being trained exclusively on brain data. Medical expert evaluations further confirm the clinical relevance and fidelity of the generated images. To our knowledge, X-Diffusion is the first method capable of producing detailed 3D MRIs from highly limited 2D input data, potentially accelerating MRI acquisition and reducing associated costs.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://abdullahamdi.com/publication/xdiff/">
@@ -89,47 +89,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119904508-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-119904508-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -153,13 +112,13 @@
   <meta property="og:site_name" content="Abdullah Hamdi">
   <meta property="og:url" content="https://abdullahamdi.com/publication/xdiff/">
   <meta property="og:title" content="X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models | Abdullah Hamdi">
-  <meta property="og:description" content="In this work, we present X-Diffusion, a cross-sectional diffusion model tailored for Magnetic Resonance Imaging (MRI) data. X-Diffusion is capable of generating the entire MRI volume from just a single MRI slice or optionally from few multiple slices, setting new benchmarks in the precision of synthesized MRIs from extremely sparse observations. The uniqueness lies in the novel view-conditional training and inference of X-Diffusion on MRI volumes, allowing for generalized MRI learning. Our evaluations span both brain tumour MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Utilizing the paired pre-registered Dual-energy X-ray Absorptiometry (DXA) and MRI modalities in the UK Biobank dataset, X-Diffusion is able to generate detailed 3D MRI volume from a single full-body DXA. Remarkably, the resultant MRIs not only stand out in precision on unseen examples (surpassing state-of-the-art results by large margins) but also flawlessly retain essential features of the original MRI, including tumour profiles, spine curvature, brain volume, and beyond. Furthermore, the trained X-Diffusion model on the MRI datasets attains a generalization capacity out-of-domain (e.g. generating knee MRIs even though it is trained on brains)."><meta property="og:image" content="https://abdullahamdi.com/publication/xdiff/featured.png">
+  <meta property="og:description" content="Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool, but high-resolution scans are often slow and expensive due to extensive data acquisition requirements. Traditional MRI reconstruction methods aim to expedite this process by filling in missing frequency components in the K-space, performing 3D-to-3D reconstructions that demand full 3D scans. In contrast, we introduce X-Diffusion, a novel cross-sectional diffusion model that reconstructs detailed 3D MRI volumes from extremely sparse spatial-domain inputs, achieving 2D-to-3D reconstruction from as little as a single 2D MRI slice or few slices. A key aspect of X-Diffusion is that it models MRI data as holistic 3D volumes during the cross-sectional training and inference, unlike previous learning approaches that treat MRI scans as collections of 2D slices in standard planes (coronal, axial, sagittal). We evaluated X-Diffusion on brain tumor MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Our results demonstrate that X-Diffusion not only surpasses state-of-the-art methods in quantitative accuracy (PSNR) on unseen data but also preserves critical anatomical features such as tumor profiles, spine curvature, and brain volume. Remarkably, the model generalizes beyond the training domain, successfully reconstructing knee MRIs despite being trained exclusively on brain data. Medical expert evaluations further confirm the clinical relevance and fidelity of the generated images. To our knowledge, X-Diffusion is the first method capable of producing detailed 3D MRIs from highly limited 2D input data, potentially accelerating MRI acquisition and reducing associated costs."><meta property="og:image" content="https://abdullahamdi.com/publication/xdiff/featured.png">
   <meta property="twitter:image" content="https://abdullahamdi.com/publication/xdiff/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2024-04-17T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2025-09-17T00:00:00&#43;03:00">
     
-    <meta property="article:modified_time" content="2024-04-17T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2025-09-17T00:00:00&#43;03:00">
   
 
   
@@ -191,12 +150,12 @@
     "https://abdullahamdi.com/publication/xdiff/featured.png"
   ],
   
-  "datePublished": "2024-04-17T00:00:00+01:00",
-  "dateModified": "2024-04-17T00:00:00+01:00",
+  "datePublished": "2025-09-17T00:00:00+03:00",
+  "dateModified": "2025-09-17T00:00:00+03:00",
   
   "author": {
     "@type": "Person",
-    "name": "Emmanuelle Bourigault"
+    "name": "Emmanuelle Bourigault*"
   },
   
   "publisher": {
@@ -207,7 +166,7 @@
       "url": "https://abdullahamdi.com/img/icon-512.png"
     }
   },
-  "description": "In this work, we present X-Diffusion, a cross-sectional diffusion model tailored for Magnetic Resonance Imaging (MRI) data. X-Diffusion is capable of generating the entire MRI volume from just a single MRI slice or optionally from few multiple slices, setting new benchmarks in the precision of synthesized MRIs from extremely sparse observations. The uniqueness lies in the novel view-conditional training and inference of X-Diffusion on MRI volumes, allowing for generalized MRI learning. Our evaluations span both brain tumour MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Utilizing the paired pre-registered Dual-energy X-ray Absorptiometry (DXA) and MRI modalities in the UK Biobank dataset, X-Diffusion is able to generate detailed 3D MRI volume from a single full-body DXA. Remarkably, the resultant MRIs not only stand out in precision on unseen examples (surpassing state-of-the-art results by large margins) but also flawlessly retain essential features of the original MRI, including tumour profiles, spine curvature, brain volume, and beyond. Furthermore, the trained X-Diffusion model on the MRI datasets attains a generalization capacity out-of-domain (e.g. generating knee MRIs even though it is trained on brains)."
+  "description": "Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool, but high-resolution scans are often slow and expensive due to extensive data acquisition requirements. Traditional MRI reconstruction methods aim to expedite this process by filling in missing frequency components in the K-space, performing 3D-to-3D reconstructions that demand full 3D scans. In contrast, we introduce X-Diffusion, a novel cross-sectional diffusion model that reconstructs detailed 3D MRI volumes from extremely sparse spatial-domain inputs, achieving 2D-to-3D reconstruction from as little as a single 2D MRI slice or few slices. A key aspect of X-Diffusion is that it models MRI data as holistic 3D volumes during the cross-sectional training and inference, unlike previous learning approaches that treat MRI scans as collections of 2D slices in standard planes (coronal, axial, sagittal). We evaluated X-Diffusion on brain tumor MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Our results demonstrate that X-Diffusion not only surpasses state-of-the-art methods in quantitative accuracy (PSNR) on unseen data but also preserves critical anatomical features such as tumor profiles, spine curvature, and brain volume. Remarkably, the model generalizes beyond the training domain, successfully reconstructing knee MRIs despite being trained exclusively on brain data. Medical expert evaluations further confirm the clinical relevance and fidelity of the generated images. To our knowledge, X-Diffusion is the first method capable of producing detailed 3D MRIs from highly limited 2D input data, potentially accelerating MRI acquisition and reducing associated costs."
 }
 </script>
 
@@ -520,7 +479,7 @@
 
 
   
-  <span><a href="/authors/emmanuelle-bourigault/">Emmanuelle Bourigault*</a></span>, <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong>*</a></span>, <span><a href="/authors/amir-jamaludin/">Amir Jamaludin</a></span>
+  <span>Emmanuelle Bourigault*</span>, <span><strong>Abdullah Hamdi</strong>*</span>, <span>Amir Jamaludin</span>
 
   </div>
   
@@ -532,7 +491,7 @@
     
       
     
-    April 2024
+    September 2025
   </span>
   
 
@@ -646,9 +605,28 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">In this work, we present X-Diffusion, a cross-sectional diffusion model tailored for Magnetic Resonance Imaging (MRI) data. X-Diffusion is capable of generating the entire MRI volume from just a single MRI slice or optionally from few multiple slices, setting new benchmarks in the precision of synthesized MRIs from extremely sparse observations. The uniqueness lies in the novel view-conditional training and inference of X-Diffusion on MRI volumes, allowing for generalized MRI learning. Our evaluations span both brain tumour MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Utilizing the paired pre-registered Dual-energy X-ray Absorptiometry (DXA) and MRI modalities in the UK Biobank dataset, X-Diffusion is able to generate detailed 3D MRI volume from a single full-body DXA. Remarkably, the resultant MRIs not only stand out in precision on unseen examples (surpassing state-of-the-art results by large margins) but also flawlessly retain essential features of the original MRI, including tumour profiles, spine curvature, brain volume, and beyond. Furthermore, the trained X-Diffusion model on the MRI datasets attains a generalization capacity out-of-domain (e.g. generating knee MRIs even though it is trained on brains).</p>
+    <p class="pub-abstract">Magnetic Resonance Imaging (MRI) is a crucial diagnostic tool, but high-resolution scans are often slow and expensive due to extensive data acquisition requirements. Traditional MRI reconstruction methods aim to expedite this process by filling in missing frequency components in the K-space, performing 3D-to-3D reconstructions that demand full 3D scans. In contrast, we introduce X-Diffusion, a novel cross-sectional diffusion model that reconstructs detailed 3D MRI volumes from extremely sparse spatial-domain inputs, achieving 2D-to-3D reconstruction from as little as a single 2D MRI slice or few slices. A key aspect of X-Diffusion is that it models MRI data as holistic 3D volumes during the cross-sectional training and inference, unlike previous learning approaches that treat MRI scans as collections of 2D slices in standard planes (coronal, axial, sagittal). We evaluated X-Diffusion on brain tumor MRIs from the BRATS dataset and full-body MRIs from the UK Biobank dataset. Our results demonstrate that X-Diffusion not only surpasses state-of-the-art methods in quantitative accuracy (PSNR) on unseen data but also preserves critical anatomical features such as tumor profiles, spine curvature, and brain volume. Remarkably, the model generalizes beyond the training domain, successfully reconstructing knee MRIs despite being trained exclusively on brain data. Medical expert evaluations further confirm the clinical relevance and fidelity of the generated images. To our knowledge, X-Diffusion is the first method capable of producing detailed 3D MRIs from highly limited 2D input data, potentially accelerating MRI acquisition and reducing associated costs.</p>
     
 
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     
@@ -657,7 +635,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Arxiv</div>
+          <div class="col-12 col-md-9">In <a href="https://era-ai-biomed.github.io/GAIA/">Internation conference on computer vision (<em>ICCV 2025</em>) Workshop on Generative AI for Biomedical Image Analysis</a> <strong>[Oral]</strong></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -799,24 +777,6 @@
 
 
 
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/emmanuelle-bourigault/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
-
 
 
 
@@ -831,15 +791,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/ges/">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
+      <li><a href="/publication/ukbob/">UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation</a></li>
       
-      <li><a href="/publication/magic123/">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</a></li>
+      <li><a href="/publication/medsam/">Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</a></li>
       
-      <li><a href="/publication/egoloc-iccv/">EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</a></li>
+      <li><a href="/publication/gst/">GST: Precise 3D Human Body from a Single Image with Gaussian Splatting Transformers</a></li>
       
-      <li><a href="/publication/sparf/">SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</a></li>
+      <li><a href="/publication/bench4d/">4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding</a></li>
       
-      <li><a href="/publication/vars-cvpr/">VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views</a></li>
+      <li><a href="/publication/zerokey/">ZeroKey: Point-Level Reasoning and Zero-Shot 3D Keypoint Detection from Large Language Models</a></li>
       
     </ul>
   </div>

@@ -89,47 +89,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119904508-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-119904508-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
   <link rel="alternate" href="/publication_types/1/index.xml" type="application/rss+xml" title="Abdullah Hamdi">
   
@@ -158,7 +117,7 @@
   <meta property="og:description" content="Abdullah Hamdi: PhD Student in Computer Science (Computer Vision) working on deep learning and understanding artificial neural networks."><meta property="og:image" content="https://abdullahamdi.com/img/avatar.png">
   <meta property="twitter:image" content="https://abdullahamdi.com/img/avatar.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-11-20T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2025-09-17T00:00:00&#43;03:00">
   
 
   
@@ -459,6 +418,42 @@
   
   
   <div>
+    <h2><a href="/publication/egoloc-iccv/">EgoLoc: Revisiting 3D Object Localization from Egocentric Videos with Visual Queries</a></h2>
+    <div class="article-style">
+      
+      With the recent advances in video and 3D understanding, novel 4D spatio-temporal methods fusing both concepts have emerged. Towards this direction, the Ego4D Episodic Memory Benchmark proposed a task for Visual Queries with 3D Localization (VQ3D). …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/sparf/">SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images</a></h2>
+    <div class="article-style">
+      
+      Recent advances in Neural Radiance Fields (NeRFs) treat the problem of novel view synthesis as Sparse Radiance Field (SRF) optimization using sparse voxels for efficient and fast rendering (Plenoxels,InstantNGP). In order to leverage machine learning …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/vars-cvpr/">VARS: Video Assistant Referee System for Automated Soccer Decision Making From Multiple Views</a></h2>
+    <div class="article-style">
+      
+      The Video Assistant Referee (VAR) has revolutionized association football, enabling referees to review incidents on the pitch, make informed decisions, and ensure fairness. However, due to the lack of referees in many countries and the high cost of …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/publication/voint-cloud/">Voint Cloud: Multi-View Point Cloud Representation for 3D Understanding</a></h2>
+    <div class="article-style">
+      
+      Multi-view projection methods have demonstrated promising performance on 3D understanding tasks like 3D classification and segmentation. However, it remains unclear how to combine such multi-view methods with the widely available 3D point clouds. …
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="/publication/mvtn-iccv/">MVTN: Multi-View Transformation Network for 3D Shape Recognition</a></h2>
     <div class="article-style">
       
@@ -512,15 +507,6 @@
     </div>
   </div>
   
-  <div>
-    <h2><a href="/publication/filter-arxive/">Learning Rotation for Kernel Correlation Filter</a></h2>
-    <div class="article-style">
-      
-      Kernel Correlation Filters have shown a very promising scheme for visual tracking in terms of speed and accuracy on several benchmarks. However it suffers from problems that affect its performance like occlusion, rotation and scale change. This paper …
-      
-    </div>
-  </div>
-  
 
   
 <nav>
@@ -528,6 +514,8 @@
     
     <li class="page-item"><a class="page-link" href="/publication_types/1/">&laquo;</a></li>
     
+    
+    <li class="page-item"><a class="page-link" href="/publication_types/1/page/3/">&raquo;</a></li>
     
   </ul>
 </nav>

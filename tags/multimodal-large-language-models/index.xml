@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multimodal Large Language Models | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/multimodal-large-language-models/</link>
+      <atom:link href="https://abdullahamdi.com/tags/multimodal-large-language-models/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multimodal Large Language Models</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0300</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>Multimodal Large Language Models</title>
+      <link>https://abdullahamdi.com/tags/multimodal-large-language-models/</link>
+    </image>
+    
+    <item>
+      <title>4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding</title>
+      <link>https://abdullahamdi.com/publication/bench4d/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0300</pubDate>
+      <guid>https://abdullahamdi.com/publication/bench4d/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

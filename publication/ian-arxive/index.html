@@ -89,47 +89,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119904508-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-119904508-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -157,9 +116,9 @@
   <meta property="twitter:image" content="https://abdullahamdi.com/publication/ian-arxive/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2019-04-15T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2019-04-15T00:00:00&#43;03:00">
     
-    <meta property="article:modified_time" content="2019-04-15T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2019-04-15T00:00:00&#43;03:00">
   
 
   
@@ -191,8 +150,8 @@
     "https://abdullahamdi.com/publication/ian-arxive/featured.png"
   ],
   
-  "datePublished": "2019-04-15T00:00:00+01:00",
-  "dateModified": "2019-04-15T00:00:00+01:00",
+  "datePublished": "2019-04-15T00:00:00+03:00",
+  "dateModified": "2019-04-15T00:00:00+03:00",
   
   "author": {
     "@type": "Person",
@@ -522,7 +481,7 @@
 
 
   
-  <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>, <span><a href="/authors/bernard-ghanem/">Bernard Ghanem</a></span>
+  <span><strong>Abdullah Hamdi</strong></span>, <span>Bernard Ghanem</span>
 
   </div>
   
@@ -628,7 +587,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Generative Adversarial Networks (GANs) have gained momentum for their ability to model image distributions. They learn to emulate the training set and that enables sampling from that domain and using the knowledge learned for useful applications. Several methods proposed enhancing GANs, including regularizing the loss with some feature matching. We seek to push GANs beyond the data in the training and try to explore unseen territory in the image manifold. We first propose a new regularizer for GAN based on K-nearest neighbor (K-NN) selective feature matching to a target set Y in high-level feature space, during the adversarial training of GAN on the base set X, and we call this novel model K-GAN. We show that minimizing the added term follows from cross-entropy minimization between the distributions of GAN and the set Y. Then, We introduce a cascaded framework for GANs that try to address the task of imagining a new distribution that combines the base set X and target set Y by cascading sampling GANs with translation GANs, and we dub the cascade of such GANs as the Imaginative Adversarial Network (IAN). We conduct an objective and subjective evaluation for different IAN setups in the addressed task and show some useful applications for these IANs, like manifold traversing and creative face generation for characters&rsquo; design in movies or video games.</p>
+    <p class="pub-abstract">Generative Adversarial Networks (GANs) have gained momentum for their ability to model image distributions. They learn to emulate the training set and that enables sampling from that domain and using the knowledge learned for useful applications. Several methods proposed enhancing GANs, including regularizing the loss with some feature matching. We seek to push GANs beyond the data in the training and try to explore unseen territory in the image manifold. We first propose a new regularizer for GAN based on K-nearest neighbor (K-NN) selective feature matching to a target set Y in high-level feature space, during the adversarial training of GAN on the base set X, and we call this novel model K-GAN. We show that minimizing the added term follows from cross-entropy minimization between the distributions of GAN and the set Y. Then, We introduce a cascaded framework for GANs that try to address the task of imagining a new distribution that combines the base set X and target set Y by cascading sampling GANs with translation GANs, and we dub the cascade of such GANs as the Imaginative Adversarial Network (IAN). We conduct an objective and subjective evaluation for different IAN setups in the addressed task and show some useful applications for these IANs, like manifold traversing and creative face generation for characters' design in movies or video games.</p>
     
 
     
@@ -793,24 +752,6 @@
 
 
 
-
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/abdullah-hamdi/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
 
 
 

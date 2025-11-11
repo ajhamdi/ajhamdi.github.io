@@ -89,47 +89,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119904508-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-119904508-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -438,7 +397,13 @@
   <h2>Latest</h2>
   <ul>
     
+      <li><a href="/publication/xdiff/">X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</a></li>
+    
       <li><a href="/publication/ukbob/">UKBOB: One Billion MRI Labeled Masks for Generalizable 3D Medical Image Segmentation</a></li>
+    
+      <li><a href="/publication/bench4d/">4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding</a></li>
+    
+      <li><a href="/publication/zerokey/">ZeroKey: Point-Level Reasoning and Zero-Shot 3D Keypoint Detection from Large Language Models</a></li>
     
       <li><a href="/publication/medsam/">Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</a></li>
     
@@ -450,13 +415,7 @@
     
       <li><a href="/publication/track/">TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks</a></li>
     
-      <li><a href="/publication/xdiff/">X-Diffusion: Generating Detailed 3D MRI Volumes From a Single Image Using Cross-Sectional Diffusion Models</a></li>
-    
       <li><a href="/publication/ges/">GES: Generalized Exponential Splatting for Efficient Radiance Field Rendering</a></li>
-    
-      <li><a href="/publication/magic123/">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors</a></li>
-    
-      <li><a href="/publication/pix4point/">Pix4Point: Image Pretrained Standard Transformers for 3D Point Cloud Understanding</a></li>
     
   </ul>
   

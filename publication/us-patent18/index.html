@@ -89,47 +89,6 @@
   
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119904508-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           document.location = url;
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target);  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-119904508-2', {});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
-
-
-  
-
-
   
 
   <link rel="manifest" href="/index.webmanifest">
@@ -157,9 +116,9 @@
   <meta property="twitter:image" content="https://abdullahamdi.com/publication/us-patent18/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2018-02-20T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2018-02-20T00:00:00&#43;03:00">
     
-    <meta property="article:modified_time" content="2018-02-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2018-02-20T00:00:00&#43;03:00">
   
 
   
@@ -191,8 +150,8 @@
     "https://abdullahamdi.com/publication/us-patent18/featured.png"
   ],
   
-  "datePublished": "2018-02-20T00:00:00Z",
-  "dateModified": "2018-02-20T00:00:00Z",
+  "datePublished": "2018-02-20T00:00:00+03:00",
+  "dateModified": "2018-02-20T00:00:00+03:00",
   
   "author": {
     "@type": "Person",
@@ -522,7 +481,7 @@
 
 
   
-  <span><a href="/authors/abdullah-hamdi/"><strong>Abdullah Hamdi</strong></a></span>
+  <span><strong>Abdullah Hamdi</strong></span>
 
   </div>
   
@@ -803,24 +762,6 @@
 
 
 
-
-  
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="/authors/abdullah-hamdi/"></a></h5>
-      
-      
-      <ul class="network-icon" aria-hidden="true">
-  
-</ul>
-
-    </div>
-  </div>
 
 
 

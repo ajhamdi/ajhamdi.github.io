@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>triangle splatting | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/triangle-splatting/</link>
+      <atom:link href="https://abdullahamdi.com/tags/triangle-splatting/index.xml" rel="self" type="application/rss+xml" />
+    <description>triangle splatting</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Mon, 16 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://abdullahamdi.com/img/avatar.png</url>
+      <title>triangle splatting</title>
+      <link>https://abdullahamdi.com/tags/triangle-splatting/</link>
+    </image>
+    
+    <item>
+      <title>Triangle Splatting for Real-Time Radiance Field Rendering</title>
+      <link>https://abdullahamdi.com/publication/trianglesplat/</link>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://abdullahamdi.com/publication/trianglesplat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

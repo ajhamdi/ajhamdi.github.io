@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>0 | Abdullah Hamdi</title>
-    <link>https://abdullahamdi.com/publication_types/0/</link>
-      <atom:link href="https://abdullahamdi.com/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
-    <description>0</description>
+    <title>VQA | Abdullah Hamdi</title>
+    <link>https://abdullahamdi.com/tags/vqa/</link>
+      <atom:link href="https://abdullahamdi.com/tags/vqa/index.xml" rel="self" type="application/rss+xml" />
+    <description>VQA</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019</copyright><lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://abdullahamdi.com/img/avatar.png</url>
-      <title>0</title>
-      <link>https://abdullahamdi.com/publication_types/0/</link>
+      <title>VQA</title>
+      <link>https://abdullahamdi.com/tags/vqa/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://abdullahamdi.com/publication/colonbench/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://abdullahamdi.com/publication/colonbench/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Medical SAM 2: Segment Medical Images as Video via Segment Anything Model 2</title>
-      <link>https://abdullahamdi.com/publication/medsam/</link>
-      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://abdullahamdi.com/publication/medsam/</guid>
       <description></description>
     </item>
     

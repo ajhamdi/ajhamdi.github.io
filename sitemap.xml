@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://abdullahamdi.com/publication_types/0/</loc>
+    <loc>https://abdullahamdi.com/publication_types/1/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdullahamdi.com/</loc>
@@ -40,9 +40,6 @@
   </url><url>
     <loc>https://abdullahamdi.com/tags/vqa/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://abdullahamdi.com/publication_types/1/</loc>
-    <lastmod>2025-09-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdullahamdi.com/tags/3d/</loc>
     <lastmod>2025-09-17T00:00:00+00:00</lastmod>
@@ -127,6 +124,9 @@
   </url><url>
     <loc>https://abdullahamdi.com/publication/trianglesplat/</loc>
     <lastmod>2025-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://abdullahamdi.com/publication_types/0/</loc>
+    <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://abdullahamdi.com/tags/medical-imaing-segmentation/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
